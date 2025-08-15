@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: my_llava_package
+Version: 0.1.0
+Summary: Utilities for using LLaVA with Ollama
+Author: Your Name
+Requires-Python: >=3.8
+Requires-Dist: requests
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

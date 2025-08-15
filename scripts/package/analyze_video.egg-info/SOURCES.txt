@@ -1,0 +1,10 @@
+setup.py
+analyze_video/__init__.py
+analyze_video/config.py
+analyze_video/prompts.py
+analyze_video/utils.py
+analyze_video.egg-info/PKG-INFO
+analyze_video.egg-info/SOURCES.txt
+analyze_video.egg-info/dependency_links.txt
+analyze_video.egg-info/requires.txt
+analyze_video.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+setup.py
+analyze_video/__init__.py
+analyze_video/config.py
+analyze_video/prompts.py
+analyze_video/utils.py
+my_llava_package.egg-info/PKG-INFO
+my_llava_package.egg-info/SOURCES.txt
+my_llava_package.egg-info/dependency_links.txt
+my_llava_package.egg-info/requires.txt
+my_llava_package.egg-info/top_level.txt
