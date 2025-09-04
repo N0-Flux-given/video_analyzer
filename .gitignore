@@ -2,3 +2,6 @@ agents/
 cut_descriptions/
 cuts/
 video_inputs/
+scripts/fine_tune_for_tone/gemma-3n_charlie/
+scripts/fine_tune_for_tone/unsloth_compiled_cache/
+scripts/fine_tune_for_tone/unsloth_training_checkpoints/
