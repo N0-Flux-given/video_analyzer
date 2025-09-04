@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:03,279
+Last week, one of the most revolutionary dating apps for women, T,
+
+2
+00:00:03,620 --> 00:00:06,980
+shot to the top of the app store download charts. And then, immediately
+
+3
+00:00:06,980 --> 00:00:10,359
+imploded after one of the most embarrassing data breaches of all time,
+
+4
+00:00:10,720 --> 00:00:15,400
+T is an app that can only be used by women, two dogs and goss up about men that they've
+
+5
+00:00:15,400 --> 00:00:20,019
+gone out with on dating sites to warn other women about bad behavior before they go on a date.
+
+6
+00:00:20,260 --> 00:00:25,199
+That means if you're one of the top 5% of desirable males who get 80% of the women on apps like
+
+7
+00:00:25,779 --> 00:00:31,379
+they're probably talking about you on T. Unfortunately, on July 25th, T confirmed unauthorized
+
+8
+00:00:31,379 --> 00:00:36,619
+access to a legacy firebase storage bucket that was left completely and egregiously insecure.
+
+9
+00:00:37,000 --> 00:00:41,600
+Around 72,000 images were compromised, 13,000 selfies and ID photos,
+
+10
+00:00:41,960 --> 00:00:47,340
+then just days later, another database was hacked that allegedly contains over 1.1 million shared
+
+11
+00:00:47,340 --> 00:00:52,219
+posts, comments and direct messages. In today's video, we'll find out how this app was compromised
+
+12
+00:00:52,219 --> 00:00:55,820
+and look at all the hilarious stuff developers have been building with the hacked data.
+
+13
+00:00:56,119 --> 00:01:00,840
+It is July 30th, 2025 and you're watching the code report. The world is changing quickly.
+
+14
+00:01:01,119 --> 00:01:05,280
+Just days ago, age verification for adult websites went into effect in the UK,
+
+15
+00:01:05,780 --> 00:01:09,099
+and similar laws are also now in place in a handful of US states.
+
+16
+00:01:09,379 --> 00:01:13,319
+We live in a dystopian world where gooners now need to get permission from the government,
+
+17
+00:01:13,439 --> 00:01:18,060
+just for the privilege to goon online. Protecting kids from degenerate content is a good thing,
+
+18
+00:01:18,060 --> 00:01:22,500
+but it's only a matter of time before one of these age verification data sets gets hacked,
+
+19
+00:01:22,620 --> 00:01:26,680
+the T. app, which requires women to verify that they're women by taking a selfie with their
+
+20
+00:01:26,680 --> 00:01:32,040
+ID, is a perfect example. It was cooked up by Sean Cook, a male developer with over six months
+
+21
+00:01:32,040 --> 00:01:36,819
+of coding under his belt according to LinkedIn. But now his app is cooked after this massive
+
+22
+00:01:36,819 --> 00:01:41,480
+data breach was dumped on 4chan, and it's kind of sad that an app meant to help women stay safe
+
+23
+00:01:41,480 --> 00:01:46,159
+ended up harming them instead. 4chan anons played the UNO reverse card when thousands of
+
+24
+00:01:46,159 --> 00:01:50,379
+selfies of users on the T. app were dumped and subsequently spread across the internet,
+
+25
+00:01:50,700 --> 00:01:54,959
+and people are continuing to roast these T users as we speak. The users of this app and the
+
+26
+00:01:54,959 --> 00:01:59,840
+victims of the breach are being referred to as roasties. The vibe coder is on opportunity to build
+
+27
+00:01:59,840 --> 00:02:05,140
+all sorts of ridiculous apps based on this data. Like one guy used Python to do a detailed data
+
+28
+00:02:05,140 --> 00:02:09,919
+exploration while another used JavaScript to take the location data from the hacked images
+
+29
+00:02:09,919 --> 00:02:14,699
+and plotted on Google Maps, while another person made a website to rank them based on their looks.
+
+30
+00:02:14,699 --> 00:02:19,659
+After the breach went viral, the T team released a statement which was basically a non-apology
+
+31
+00:02:19,659 --> 00:02:24,620
+with a bunch of corpus speak that explained how a legacy data storage system was penetrated
+
+32
+00:02:24,620 --> 00:02:29,219
+non-consensually. What's especially egregious about this breach though is that the data was
+
+33
+00:02:29,219 --> 00:02:34,360
+kept in a fire-based storage bucket, it completely unencrypted and unsecured, just waiting to be found
+
+34
+00:02:34,360 --> 00:02:38,240
+by someone on the internet. And you actually have to go out of your way to screw up fire-based
+
+35
+00:02:38,240 --> 00:02:42,759
+this bad because you get tons of warnings when you have a bucket or database with rules set to
+
+36
+00:02:42,759 --> 00:02:47,900
+public, along with email reminders that tell you anyone can access this data. In addition, in the
+
+37
+00:02:47,900 --> 00:02:52,340
+UI, they tell users that they will delete your selfie after the verification process is done,
+
+38
+00:02:52,539 --> 00:02:56,319
+but it appears that wasn't the case. They were either lying or just highly incompetent,
+
+39
+00:02:56,379 --> 00:03:00,699
+as some have speculated that the app itself is just vibe-coded slop, but I think that's highly
+
+40
+00:03:00,699 --> 00:03:05,680
+unlikely because not even AI would screw up fire-based this bad. But between your AI coding agent
+
+41
+00:03:05,680 --> 00:03:10,520
+bills, your AI girlfriend bills, and your cloud hosting bills, it's never been more expensive to
+
+42
+00:03:10,520 --> 00:03:14,900
+be a 10X developer, which is why you should check out Hostinger, the sponsor of today's video.
+
+43
+00:03:15,159 --> 00:03:19,639
+Their virtual private servers will give you the power and flexibility to run whatever you want,
+
+44
+00:03:19,840 --> 00:03:24,039
+without locking you into someone else's platform. And for less than 10 bucks per month,
+
+45
+00:03:24,240 --> 00:03:29,580
+you get a respectable 2CPUs and a gigabyte of RAM. You can see how they have a bunch of operating
+
+46
+00:03:29,580 --> 00:03:34,180
+systems to choose from, or you could go with a pre-installed template, like this one from Coolify,
+
+47
+00:03:34,419 --> 00:03:39,639
+which lets you easily deploy any framework like NextJS or Astro. If you want freedom from our
+
+48
+00:03:39,639 --> 00:03:44,860
+serverless overlords and a great developer experience, check out Hostinger at the link below for an
+
+49
+00:03:44,860 --> 00:03:49,219
+even bigger discount. But this has been the code report, thanks for watching, and I will see you in the
+
+50
+00:03:49,219 --> 00:03:49,639
+next one.
+

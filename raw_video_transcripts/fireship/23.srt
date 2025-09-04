@@ -1,0 +1,228 @@
+1
+00:00:00,000 --> 00:00:04,500
+Anyone who has ever graduated from kindergarten should know the seven foundational data structures
+
+2
+00:00:04,500 --> 00:00:10,839
+of computer science, which include arrays, link lists, hash tables, stacks, cues, graphs, and trees.
+
+3
+00:00:11,119 --> 00:00:13,859
+But if you didn't graduate from kindergarten, here's a quick crash course.
+
+4
+00:00:14,140 --> 00:00:19,140
+A data structure is just a way to organize data in a computer so you can do cred to it efficiently.
+
+5
+00:00:19,500 --> 00:00:23,199
+Create, read, update, and delete it. In arrays like a row of numbered cubbies,
+
+6
+00:00:23,420 --> 00:00:28,199
+a linked list is like a treasure map of clues. A hash table is like a locker with your name on it.
+
+7
+00:00:28,199 --> 00:00:33,179
+A stack is like a stack of books. A queue is like a line of kids at the cafeteria. A graph is
+
+8
+00:00:33,179 --> 00:00:38,100
+a spider web, and a tree is, well, like a tree. The programming is all about solving problems.
+
+9
+00:00:38,539 --> 00:00:43,000
+I've got 99 problems, but a data structure ain't one. But for some programmers, data structures
+
+10
+00:00:43,000 --> 00:00:47,920
+do become a problem. In today's video, we'll look at a few unusual situations where the simple
+
+11
+00:00:47,920 --> 00:00:52,060
+data structures were not good enough or smart enough to get the job done. Let's start by talking
+
+12
+00:00:52,060 --> 00:00:56,759
+about the B-tree, not to be confused with a binary tree. One of the most exhilarating things
+
+13
+00:00:56,759 --> 00:01:00,600
+that ever happened in my life was the first time I implemented a binary search tree,
+
+14
+00:01:00,780 --> 00:01:05,540
+which prevented my algorithms' time complexity from going burr, turning O of N squared into a
+
+15
+00:01:05,540 --> 00:01:10,840
+much faster O of log N. But binary search trees have one problem. Each node in the tree can only
+
+16
+00:01:10,840 --> 00:01:15,120
+have two children, which means the depth of the tree grows rapidly, and doesn't scale very
+
+17
+00:01:15,120 --> 00:01:19,840
+well for things like modern hard drives with massive amounts of data to search through. To address
+
+18
+00:01:19,840 --> 00:01:25,519
+this problem a long time ago, programmers at Boeing developed the self-balancing tree or B-tree.
+
+19
+00:01:25,519 --> 00:01:29,299
+Although nowadays you'll mostly find B-plus trees and file systems and databases.
+
+20
+00:01:29,819 --> 00:01:33,920
+At a high level, what makes them special is that each node can have multiple children of
+
+21
+00:01:33,920 --> 00:01:38,519
+sorted keys. These are called internal nodes, and they work like signposts, that point to leaf
+
+22
+00:01:38,519 --> 00:01:43,560
+nodes that hold the actual data, or pointers to data. So it works kind of like a binary tree,
+
+23
+00:01:43,799 --> 00:01:48,200
+but greatly reduces the disk IO operations by cutting down the height of the tree, which is pretty
+
+24
+00:01:48,200 --> 00:01:53,019
+cool, but there are many other types of trees in nature and in computers, like the radix tree.
+
+25
+00:01:53,019 --> 00:01:57,480
+Like there are billions of IP addresses in the world, but have you ever wondered how computers
+
+26
+00:01:57,480 --> 00:02:01,819
+wrap between them so efficiently to make the internet work. A radix tree is special because
+
+27
+00:02:01,819 --> 00:02:06,400
+nodes with only one child are emerged with their parent, and that makes them highly efficient when
+
+28
+00:02:06,400 --> 00:02:11,620
+finding values with a shared prefix, like an IP address. For example, if I made a tree to find
+
+29
+00:02:11,620 --> 00:02:16,780
+words that start with C, our tree might look like this, but in a radix tree we can reduce the depth
+
+30
+00:02:16,780 --> 00:02:21,560
+by emerging the last child. That's ideal when you have many shared prefixes, but doesn't work
+
+31
+00:02:21,560 --> 00:02:25,919
+so well with big complex strings, like all the vibe coded slots you're trying to debug in your
+
+32
+00:02:25,919 --> 00:02:31,000
+IDE right now. A rope is yet another type of tree that breaks down strings into manageable chunks.
+
+33
+00:02:31,400 --> 00:02:35,659
+Instead of one continuous strand, you cut it into many smaller manageable segments,
+
+34
+00:02:36,020 --> 00:02:40,719
+then you tie these segments together using smaller knots that also tell you how long each segment
+
+35
+00:02:40,719 --> 00:02:45,819
+they represent is. This allows tools like text editors to more efficiently modify large documents,
+
+36
+00:02:45,979 --> 00:02:50,699
+but in some cases figuring out what not to search is more important, and that's where bloom filters
+
+37
+00:02:50,699 --> 00:02:55,599
+come in. It's a probabilistic data structure that can tell you if an item is definitely not
+
+38
+00:02:55,599 --> 00:03:01,800
+in a set, or maybe is in a set. It works by using multiple hash functions to set and check bits in
+
+39
+00:03:01,800 --> 00:03:07,180
+a fixed sized array, allowing fast membership tests with possible false positives, but no false
+
+40
+00:03:07,180 --> 00:03:11,719
+negatives. It's like a balancer to club who always knows exactly who to kick out. One of the
+
+41
+00:03:11,719 --> 00:03:16,199
+weirdest things in nature though is the cuckoo bird. A bird that sneaks into another bird's nest
+
+42
+00:03:16,199 --> 00:03:21,039
+and replaces its eggs with its own. Tricking the hose to incubate and care for the cuckoo check.
+
+43
+00:03:21,199 --> 00:03:25,699
+This behavior not only inspired the term cuckled, but also cuckoo hashing and programming.
+
+44
+00:03:26,020 --> 00:03:30,120
+According to my wife's boyfriend, it's a collision resolution technique where each key in a
+
+45
+00:03:30,120 --> 00:03:35,699
+hash table has two or more possible positions, and if one spot is taken, the existing key is kicked out
+
+46
+00:03:35,699 --> 00:03:41,060
+like a cuckoo, and reinserted in an alternate location. The end result is constant time worst case
+
+47
+00:03:41,060 --> 00:03:45,819
+complexity for lookups, which is as fast as you can possibly go when it comes to algorithms. But if
+
+48
+00:03:45,819 --> 00:03:49,840
+you want to optimize your own code with these weird data structures, you need to know about code
+
+49
+00:03:49,840 --> 00:03:55,080
+rabbit, the sponsor of today's video. They just released a new VS Code extension that gives you
+
+50
+00:03:55,080 --> 00:03:59,539
+advanced code reviews right in your editor, so you can catch the majority of bugs before you even
+
+51
+00:03:59,539 --> 00:04:04,240
+submit a pull request. Unlike other tools, the extension understands the context of your entire
+
+52
+00:04:04,240 --> 00:04:09,240
+code base, allowing it to catch more bugs, like all the AI slop your favorite code gen tool left
+
+53
+00:04:09,240 --> 00:04:14,219
+behind. It gives you line-by-line comments on all issues, so you can see it reasoning, then it
+
+54
+00:04:14,219 --> 00:04:18,639
+offers simple one-click fixes to help you clean things up quickly. The code rabbit is free to
+
+55
+00:04:18,639 --> 00:04:23,620
+use in the IDE and work seamlessly with VS Code as well as forks like cursor and wind serve.
+
+56
+00:04:23,860 --> 00:04:28,160
+It download the extension using the link below to try it out. Thanks for watching, and I will see you
+
+57
+00:04:28,160 --> 00:04:28,779
+in the next one.
+

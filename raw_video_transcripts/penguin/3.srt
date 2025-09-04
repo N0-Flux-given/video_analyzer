@@ -1,0 +1,400 @@
+1
+00:00:00,000 --> 00:00:07,559
+I'm shocked! I cannot believe Twitch is actually finally making bot busting a priority on the platform.
+
+2
+00:00:07,980 --> 00:00:11,519
+Botting on Twitch has been a problem since the beginning of time.
+
+3
+00:00:12,259 --> 00:00:17,219
+And they hadn't taken it seriously forever, but a month ago they made a statement where they
+
+4
+00:00:17,219 --> 00:00:22,140
+claimed, listen guys, condoms finally coming off, we're going in raw against bots, we're finally
+
+5
+00:00:22,140 --> 00:00:27,160
+gonna do something about it. And I was excited, like that's something to celebrate, but I kind of
+
+6
+00:00:27,160 --> 00:00:30,579
+thought they were just looking to score some good boy points online, like some brownie points
+
+7
+00:00:30,579 --> 00:00:35,119
+because Twitch's reputation been kind of in the shitter recently. I thought this was just
+
+8
+00:00:35,119 --> 00:00:39,179
+something that they were just doing for lip service. I wasn't entirely convinced they were going
+
+9
+00:00:39,179 --> 00:00:47,320
+to go that hard on it until today. Wow, they have actually done a really good job here, like in this
+
+10
+00:00:47,320 --> 00:00:54,960
+first wave of getting bots off of Twitch, like bringing back down these artificially boosted numbers
+
+11
+00:00:54,960 --> 00:01:00,140
+to what they actually are. There's a lot of examples to pull from the data is all very new,
+
+12
+00:01:00,280 --> 00:01:05,500
+mind you, but I think the best example is from a channel called Mira. I'm sure some of you have
+
+13
+00:01:05,500 --> 00:01:09,120
+at least heard of this because this is something that people have been trying to put on Twitch's
+
+14
+00:01:09,120 --> 00:01:13,920
+plate for the longest time about a channel that keeps getting recommended to them that isn't actually
+
+15
+00:01:13,920 --> 00:01:22,859
+even a livestream. For the last couple of years, it is just a farming channel where Mira is just
+
+16
+00:01:22,859 --> 00:01:28,120
+farming ads of botted numbers. She doesn't actually even really stream on there. I think she's gone
+
+17
+00:01:28,120 --> 00:01:33,760
+live like a few times over the last couple of years, but it's live 24-7 just pumping reruns of
+
+18
+00:01:33,760 --> 00:01:41,560
+streams she did so long ago, like ancient history. So look at this, this channel for I think like
+
+19
+00:01:41,560 --> 00:01:46,500
+probably three years. I don't know how long it's been going on for, but it's been years has been
+
+20
+00:01:46,500 --> 00:01:52,060
+sitting at like a steady 2000 viewers no matter the time of day. And all the channel has done for this
+
+21
+00:01:52,780 --> 00:01:59,480
+pretty much exclusively is run 24-7 reruns of old streams yet somehow manages to maintain 2000
+
+22
+00:01:59,480 --> 00:02:08,080
+viewers throughout the entire duration of it. Then the day that Twitch bot smiting comes into effect,
+
+23
+00:02:08,580 --> 00:02:14,759
+it goes from 2000 then down to 1500 and then the bot detection I guess most have kicked into
+
+24
+00:02:14,759 --> 00:02:21,800
+fucking turbo drive. They went 1-bo style and now she's sitting at 100 to 200. Pretty much
+
+25
+00:02:21,800 --> 00:02:28,080
+overnight. This to me is like the most clear example of them actually doing something about botting.
+
+26
+00:02:28,300 --> 00:02:33,840
+I was very surprised to see this. Her channel which is live right now by the way because it's 24-7
+
+27
+00:02:33,840 --> 00:02:41,020
+reruns. This channel is constantly or was constantly recommended to anybody with a brand new account
+
+28
+00:02:41,020 --> 00:02:46,520
+like see I'm not logged in or anything. I'm still on like light mode. This stream was recommended
+
+29
+00:02:46,520 --> 00:02:54,979
+all the time and somehow still had 1000 viewers on just reruns. Clearly most like rational
+
+30
+00:02:55,540 --> 00:02:59,400
+sentient human beings aren't going to be watching that. Look at the chat. It doesn't move and
+
+31
+00:02:59,400 --> 00:03:05,159
+this is exactly what it looked like back then too. No movement. There's no chatting because it's not
+
+32
+00:03:05,159 --> 00:03:12,560
+real. And now the bot detection is here and you can see that it is finally working. Though I think
+
+33
+00:03:12,560 --> 00:03:16,819
+there are still some bots like some holdovers here because there's no way there's 250 people here
+
+34
+00:03:16,819 --> 00:03:21,039
+right now. It seems to me like there's definitely still some stubborn bots that Twitch wasn't able to
+
+35
+00:03:21,039 --> 00:03:28,120
+get there. Stick it on there like a hemorrhoid. The parasite bot infestation has been decimated but
+
+36
+00:03:28,120 --> 00:03:36,080
+not destroyed because I cannot imagine 276 people being in this stream right now. Not even his
+
+37
+00:03:36,080 --> 00:03:40,819
+background noise in like a tab they forgot on like an ancient laptop. I don't even see that being
+
+38
+00:03:40,819 --> 00:03:46,759
+the case. I don't think there's a single soul in this realm right now. This shit is more empty
+
+39
+00:03:46,759 --> 00:03:52,879
+than a theater showing more beasts. I just don't believe that. But even still it's clear that what
+
+40
+00:03:52,879 --> 00:03:59,419
+Twitch is doing is actually pretty effective at blasting bots which I didn't expect. Her channel
+
+41
+00:03:59,419 --> 00:04:03,879
+I think is the best example of it. But there's a lot of other channels like big streamers that went
+
+42
+00:04:03,879 --> 00:04:07,759
+live over the last day where their view counts have halved or even more than halved in some cases.
+
+43
+00:04:07,759 --> 00:04:12,719
+So they actually are taking it kind of seriously. Like I said I was a little skeptical that they were
+
+44
+00:04:12,719 --> 00:04:18,220
+even going to really try and take down bots because inflated viewer numbers is good for the platform.
+
+45
+00:04:18,220 --> 00:04:23,439
+Like I thought they probably wouldn't actually put a lot of resources to it. But it seems I was very
+
+46
+00:04:23,439 --> 00:04:29,199
+wrong. Now another thing worth mentioning. This scam of like running reruns with bots is not
+
+47
+00:04:29,199 --> 00:04:37,000
+exclusive to just her channel. But you have to wonder how much money she made off of that. This
+
+48
+00:04:37,000 --> 00:04:43,579
+is so curious how much money she made just running old streams 24-7 reruns with botted view counts
+
+49
+00:04:43,579 --> 00:04:50,120
+up to 2-3,000. That's probably a pretty substantial chunk of change. It's got a lot of people talking
+
+50
+00:04:50,120 --> 00:04:54,620
+and I think this is a really great thing from Twitch to be honest. XQC made a tweet talking about
+
+51
+00:04:54,620 --> 00:04:59,160
+it saying Twitch cracked down on bots in 2-3 days and viewbots, slash victims of viewbots have been
+
+52
+00:04:59,160 --> 00:05:03,180
+exposed. Streamers that are part of group slash orgs are seemingly being botted much more heavily.
+
+53
+00:05:03,180 --> 00:05:06,439
+Don't want to start a witch hunt but the data is interesting to go see for yourself
+
+54
+00:05:06,439 --> 00:05:11,560
+and then links Twitch tracker which you can see for yourself. And people are scrubbing through
+
+55
+00:05:11,560 --> 00:05:17,620
+with a fine tooth comb taking a peek at these big drops in viewer numbers. And right now the findings
+
+56
+00:05:17,620 --> 00:05:23,860
+are still pretty early because this has only been an effect for like two maybe three days now.
+
+57
+00:05:24,319 --> 00:05:29,399
+So it's still like very fresh data. This shit's straight out of the oven. But people are noticing that
+
+58
+00:05:29,399 --> 00:05:34,560
+some of the biggest channels being hit were affiliated with orgs. So like XQC mentions,
+
+59
+00:05:35,120 --> 00:05:42,019
+like some org affiliated channels were in a lot of cases the recipients of some artificially
+
+60
+00:05:42,019 --> 00:05:46,439
+boosted numbers as evident by a huge drop in viewer numbers over the last couple days. I don't
+
+61
+00:05:46,439 --> 00:05:51,660
+know where. Namely OTK seems to be the big one people are seeing a huge drop across the board
+
+62
+00:05:51,660 --> 00:05:55,639
+for most of the channels that have gone live over the last couple days that are with the group.
+
+63
+00:05:55,639 --> 00:05:59,759
+Another channel people been paying very close attention to is Asman Golds. He's one of the
+
+64
+00:05:59,759 --> 00:06:05,759
+biggest streamers in the world and he went live the last couple days since the bot fisting has come
+
+65
+00:06:05,759 --> 00:06:12,240
+out from Twitch and they noticed that his average viewers for both streams had been about 20,000
+
+66
+00:06:12,240 --> 00:06:17,899
+less than normal. About 20,000 people were banished to the shadow realm here and Asman Gold even
+
+67
+00:06:17,899 --> 00:06:22,920
+commented on it believing that his account was probably bought it. He believes with 95% certainty
+
+68
+00:06:22,920 --> 00:06:29,300
+his channel was bought it and he agrees that removing these bot numbers and this fake phony
+
+69
+00:06:29,300 --> 00:06:34,519
+baloney viewership from the platform is good for everybody there. And that seems to be the
+
+70
+00:06:34,519 --> 00:06:39,480
+prevailing sentiment that everyone agrees that getting rid of artificial viewership from Twitch
+
+71
+00:06:39,480 --> 00:06:44,439
+is a net positive to the entire platform. The only people that will have an issue with these
+
+72
+00:06:44,439 --> 00:06:50,680
+fake numbers being blasted is going to be the people that are exploiting them. The people that
+
+73
+00:06:50,680 --> 00:06:55,819
+are using the bot services are the only ones that are going to be outraged about it. Now I also
+
+74
+00:06:55,819 --> 00:07:01,120
+imagine the cope from a lot of people that are going to get caught red handed with bots is going to be
+
+75
+00:07:01,120 --> 00:07:07,819
+it wasn't me I must have been the victim of a malicious bot villain a super villain twirling his
+
+76
+00:07:07,819 --> 00:07:13,699
+evil cartoonish mustache must have been botting me for all this time. I had no idea. And in some cases
+
+77
+00:07:13,699 --> 00:07:19,360
+like that is a real thing. There are cases where some people will bot a channel just because they
+
+78
+00:07:19,360 --> 00:07:24,339
+think it's going to get them in trouble. But that doesn't happen like Twitch for the longest time
+
+79
+00:07:24,339 --> 00:07:29,860
+has not taken this botting problem seriously. So that whole idea of like a bad actor botting a
+
+80
+00:07:29,860 --> 00:07:35,240
+channel to try and get punishment put upon a streamer they don't like. It's not that common. It
+
+81
+00:07:35,240 --> 00:07:40,339
+happens sure but it's not that common because everybody knows Twitch hasn't done anything about
+
+82
+00:07:40,339 --> 00:07:46,360
+botters for so long. So how the fuck could that possibly still be a strategy that someone that
+
+83
+00:07:46,360 --> 00:07:49,879
+doesn't like you would use. That's like you and your buddy going to the public pool and you eat
+
+84
+00:07:49,879 --> 00:07:53,680
+pizza together and then your friend tries to tell the lifeguard that you didn't wait 30 minutes before
+
+85
+00:07:53,680 --> 00:07:58,500
+getting in the pool. It's like okay who gives a fuck. I guess the whole way Twitch is treated
+
+86
+00:07:58,500 --> 00:08:03,879
+botting for the longest time. Until now I think that's going to be like the crutch a lot of people will
+
+87
+00:08:03,879 --> 00:08:08,500
+claim like I wasn't botting. I didn't sign off on anyone botting me. This must have been some
+
+88
+00:08:08,500 --> 00:08:14,120
+stranger in the in the back alleys trying to hurt my reputation by botting me for all this time.
+
+89
+00:08:14,579 --> 00:08:18,540
+And some people I'm sure will be telling the truth but it's going to be hard to know for sure.
+
+90
+00:08:19,360 --> 00:08:24,500
+But one thing that I think everyone will know for sure is that this is a really good thing for
+
+91
+00:08:24,500 --> 00:08:30,100
+Twitch. I am so glad they're actually taking this seriously and actually wiping out such huge
+
+92
+00:08:30,100 --> 00:08:35,139
+amounts of bots. I'm hoping they are still going to continue doing this because there's still work
+
+93
+00:08:35,139 --> 00:08:39,759
+to be done. All of these bot services are going to do their best to circumvent this so that way
+
+94
+00:08:39,759 --> 00:08:44,799
+their clients can continue to pay them money for this service. They're not just going to roll over
+
+95
+00:08:44,799 --> 00:08:50,240
+and die. They're not going to go belly up and just admit defeat. This is always a tug of war.
+
+96
+00:08:50,639 --> 00:08:55,279
+They are going to come up with new ways of trying to evade Twitch's detection and I'm hoping
+
+97
+00:08:55,279 --> 00:09:00,659
+this isn't just like a one time thing where Twitch blew their whole load here on this bot blast.
+
+98
+00:09:01,059 --> 00:09:06,220
+I'm hoping they will continue to allocate resources to fighting against the upcoming bots that
+
+99
+00:09:06,220 --> 00:09:11,659
+are going to be no doubt surfacing soon. But either way this is a great step in the right direction
+
+100
+00:09:11,659 --> 00:09:15,320
+and I hope it continues. Just wanted to yap about it a bit. That's it. See ya.
+

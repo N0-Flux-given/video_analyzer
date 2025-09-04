@@ -1,0 +1,300 @@
+1
+00:00:00,000 --> 00:00:06,299
+Don't tell anyone, but while AI has been taking their jobs, reactives have been too busy fighting their own civil war to even notice.
+
+2
+00:00:06,580 --> 00:00:11,580
+On one side of the battlefield you have the rebels, fighting for their women, children, and the simplicity of react tooling.
+
+3
+00:00:11,820 --> 00:00:17,019
+On the other, you have Team Iceland from the Mighty Ducks, trying to sell you cloud infrastructure and hosting services.
+
+4
+00:00:17,399 --> 00:00:23,760
+In today's video, we'll break down both sides of the debate, so you can be informed on all the latest react drama when you're standing in line at the soup kitchen.
+
+5
+00:00:23,960 --> 00:00:26,980
+It is May 5th, 2025, and you're watching the Code Report.
+
+6
+00:00:26,980 --> 00:00:34,380
+If you've been feeling happy or fulfilled over the last few years, you probably missed that react, everyone's favorite fun and flirty UI library hit puberty.
+
+7
+00:00:34,679 --> 00:00:38,000
+Started rangel listening to limp biscuit and seemingly changed its whole identity.
+
+8
+00:00:38,219 --> 00:00:44,399
+When React first launched, despite some early hate, it quickly grew in popularity because it made the view a function of your application state.
+
+9
+00:00:44,600 --> 00:00:49,240
+And all you had to do was worry about how the state of your application changed and React would handle the rest.
+
+10
+00:00:49,539 --> 00:00:53,119
+React today follows the same ethos, but that's only half of the picture now.
+
+11
+00:00:53,119 --> 00:00:58,060
+What used to be a client-only library has metastasized across the network to take over the server.
+
+12
+00:00:58,359 --> 00:01:02,219
+It takes this code, for example. This is a perfectly valid React server component.
+
+13
+00:01:02,520 --> 00:01:09,560
+It doesn't need to follow the traditional rules of React, like not fetching data during render, because it doesn't have the same constraints as a typical React component.
+
+14
+00:01:09,799 --> 00:01:14,859
+In a way, you can think of server components as fancy, serializable HTML template generators.
+
+15
+00:01:15,239 --> 00:01:18,359
+Their entire job is to compute the UI and ship it to the client.
+
+16
+00:01:18,359 --> 00:01:21,920
+Conceptually, this is pretty simple, but it enables some pretty cool stuff.
+
+17
+00:01:22,040 --> 00:01:23,060
+It take this one, for example.
+
+18
+00:01:23,579 --> 00:01:28,739
+If this were a traditional React component, the entire pop-up library would be included in the JavaScript bundle.
+
+19
+00:01:28,980 --> 00:01:31,980
+That the user would need to download before sending anything on the screen.
+
+20
+00:01:32,319 --> 00:01:36,200
+With server components, all that shipped to the client is the end result of the computation.
+
+21
+00:01:36,500 --> 00:01:40,739
+In this case, just the final table and some instructions for React to follow during hydration.
+
+22
+00:01:41,159 --> 00:01:43,980
+And more important than the bundle may be the compositional benefits.
+
+23
+00:01:43,980 --> 00:01:51,060
+Again, React pioneered the idea of bringing composition to the front end by allowing you to create a UI by composing different components together,
+
+24
+00:01:51,319 --> 00:01:54,760
+all of which could be isolated from one another and each manage their own state.
+
+25
+00:01:55,040 --> 00:02:00,200
+If done correctly, composition can lead to a more flexible, more maintainable, and more scalable codebase.
+
+26
+00:02:00,540 --> 00:02:03,780
+It's what allows you to build complex UIs out of simple building blocks,
+
+27
+00:02:04,099 --> 00:02:08,159
+and it's what allows you to then reuse those building blocks in a variety of different contexts.
+
+28
+00:02:08,159 --> 00:02:12,960
+Combined with suspense, which is a React component that allows you to display a fallback UI while
+
+29
+00:02:12,960 --> 00:02:17,580
+React works on rendering its children, the server components allow you to prioritize showing the
+
+30
+00:02:17,580 --> 00:02:21,139
+user something immediately and then stream the rest of it as it becomes available.
+
+31
+00:02:21,400 --> 00:02:22,800
+Composition across the network.
+
+32
+00:02:23,020 --> 00:02:25,280
+This sounds awesome, so why is everyone so upset?
+
+33
+00:02:25,520 --> 00:02:29,819
+Well, mostly because they contain more magic than that night in Las Vegas when David Blaine hypnotized me
+
+34
+00:02:29,819 --> 00:02:31,439
+and told me to make JavaScript tutorials.
+
+35
+00:02:34,820 --> 00:02:40,340
+When a new React feature comes out, you can usually just NPM install React at latest and you're
+
+36
+00:02:40,340 --> 00:02:44,979
+good to go, with server components though, that's not the case. In reality, you need three things to
+
+37
+00:02:44,979 --> 00:02:49,460
+make them work. One, a bundle or that can process and differentiate between server components and
+
+38
+00:02:49,460 --> 00:02:54,259
+client components. The second, a server that can take the bundle that the bundle or generate and
+
+39
+00:02:54,259 --> 00:02:59,099
+stream it into the client, and third, a client side router that can request and process the stream
+
+40
+00:02:59,099 --> 00:03:02,699
+from the server. Since the average JavaScript developer doesn't understand what a bundle
+
+41
+00:03:02,699 --> 00:03:08,120
+or is without asking chat GPT, they usually can't get past number one. So how do the React team solve
+
+42
+00:03:08,120 --> 00:03:13,439
+this? By partnering with the next JS team and making a multi-year long bet that this new server
+
+43
+00:03:13,439 --> 00:03:18,219
+components architecture would become the primary way to use React and therefore so would next JS.
+
+44
+00:03:18,699 --> 00:03:22,479
+However, that bet, according to many in the React ecosystem, has failed.
+
+45
+00:03:22,819 --> 00:03:26,139
+And there are really two separate problems here depending on which can't be fall into.
+
+46
+00:03:26,139 --> 00:03:30,539
+If you're a developer, it's not so much that next JS is bad. It's that it's an implementation
+
+47
+00:03:30,539 --> 00:03:35,280
+of the React team's full stack architecture vision. And unless you're building a web app that
+
+48
+00:03:35,280 --> 00:03:39,439
+benefits from that architecture, it might not be worth the complexity. And if you're a framework
+
+49
+00:03:39,439 --> 00:03:44,219
+author on the React ecosystem, the partnership between React and Next kind of feels like that winter
+
+50
+00:03:44,219 --> 00:03:47,960
+your dad kept missing visitation days only to be seen with your stepbrother on Instagram,
+
+51
+00:03:48,159 --> 00:03:52,460
+skiing and Tahoe, but really both problems stem from the same place. It's becoming increasingly
+
+52
+00:03:52,460 --> 00:03:57,460
+difficult to separate React from Next JS and even harder to separate Next from Versel.
+
+53
+00:03:57,819 --> 00:04:01,400
+If you don't like the Versel's ultimate goal is to sell you Next JS hosting services,
+
+54
+00:04:01,759 --> 00:04:05,680
+you probably also don't like that React's new goal is to have you move as much of your app
+
+55
+00:04:05,680 --> 00:04:10,280
+to the server as possible regardless of how unrelated those two things may or may not be. So
+
+56
+00:04:10,280 --> 00:04:14,219
+if you're building a React app today and want to avoid the Versel money machine, what are your
+
+57
+00:04:14,219 --> 00:04:19,439
+options? Well, first you've got React Router version 7 formerly known as Remix. With a focus on
+
+58
+00:04:19,439 --> 00:04:23,759
+web standards, React Router is the most popular routing library for React and it can be paired
+
+59
+00:04:23,759 --> 00:04:28,680
+with V to create a full stack React framework if that's your thing. Next you've got Tansdack Start,
+
+60
+00:04:28,980 --> 00:04:33,139
+powered by TypeScript and the man who single handedly put the whole React ecosystem on his back
+
+61
+00:04:33,139 --> 00:04:38,540
+for the last five years. Tansdack Start comes with full document SSR, streaming, server functions,
+
+62
+00:04:38,959 --> 00:04:43,079
+bundling and much much more. It's still in beta, but that never stopped me from shipping to prod.
+
+63
+00:04:43,459 --> 00:04:47,500
+And finally, if your app has constraints not well served by existing frameworks, at least according
+
+64
+00:04:47,500 --> 00:04:51,480
+to the React team, you might just want to build your own. And the best way to learn how to do that
+
+65
+00:04:51,480 --> 00:04:56,519
+is with the sponsor and provider of the visuals for today's video React.GG. I've seen a lot of
+
+66
+00:04:56,519 --> 00:05:01,360
+programming courses in my time and React.GG may be the best. It's so good because the entire thing
+
+67
+00:05:01,360 --> 00:05:05,740
+has been developed to be as interactive as possible. For every topic you get a video, some text,
+
+68
+00:05:05,980 --> 00:05:10,259
+and visuals that represent core React topics, in addition to a bunch of practical challenges
+
+69
+00:05:10,259 --> 00:05:14,379
+that you can work through like Lee Code for React. And just to make the courses real world as
+
+70
+00:05:14,379 --> 00:05:19,379
+possible, the Sikos even built and published a hooks library called UseHooks that now gets over
+
+71
+00:05:19,379 --> 00:05:23,680
+300,000 downloads per week. And you'll recreate it throughout the course. Whether you're new to
+
+72
+00:05:23,680 --> 00:05:27,660
+React or just need to learn all the latest React 19 features like server components,
+
+73
+00:05:27,920 --> 00:05:32,779
+actions and transitions, I don't think there's a better way to do it than React.GG. And for the next
+
+74
+00:05:32,779 --> 00:05:37,060
+week, you can get 25% off during their launch sale. This has been the Code Report. Thanks for
+
+75
+00:05:37,060 --> 00:05:38,899
+watching and I will see you in the next one.
+

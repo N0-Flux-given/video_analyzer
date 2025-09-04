@@ -1,0 +1,332 @@
+1
+00:00:00,000 --> 00:00:04,599
+Recently, I unlocked a new achievement in life, a midlife crisis, when I came to the realization
+
+2
+00:00:04,599 --> 00:00:09,259
+that I've spent most of my adult life writing code. And most of that code is total garbage.
+
+3
+00:00:09,519 --> 00:00:12,939
+It's code that never saw the light of a production server and was either abandoned,
+
+4
+00:00:13,179 --> 00:00:17,480
+refactored, or left to rot in the graveyard of GitHub. As I reflected upon this further,
+
+5
+00:00:17,699 --> 00:00:22,179
+I realized that many of the best practices, the hot game changing frameworks, and the perfect
+
+6
+00:00:22,179 --> 00:00:26,739
+folder structures didn't actually matter to the end user. I wasted countless hours chasing
+
+7
+00:00:26,739 --> 00:00:31,140
+programming dragons that made me feel more productive, but ultimately led nowhere.
+
+8
+00:00:31,399 --> 00:00:35,759
+In today's video, we'll debunk nine smart ideas that waste your time as a programmer.
+
+9
+00:00:36,000 --> 00:00:39,640
+And for each myth, we'll look at how it lures you in, why it's actually a trap,
+
+10
+00:00:39,799 --> 00:00:43,920
+and most importantly, how to not do the things that I've done. Now, one of the main goals of this
+
+11
+00:00:43,920 --> 00:00:47,960
+channel is to show you the latest tech you need to use to be relevant, but it's actually a myth
+
+12
+00:00:47,960 --> 00:00:51,659
+that you need to use the latest tech to be relevant. In fact, you might even become more
+
+13
+00:00:51,659 --> 00:00:57,579
+higher, by focusing on old dinosaur technologies. Like WordPress and PHP still runs most of the web
+
+14
+00:00:57,579 --> 00:01:02,399
+applications out there. Java runs most of the enterprise world, most databases are SQL based,
+
+15
+00:01:02,700 --> 00:01:07,400
+and C++ runs most of the low level systems. However, there are shiny new replacements for tech
+
+16
+00:01:07,400 --> 00:01:12,859
+like this, including next JS, Kotlin, no sequel, and Rust. And the lure is a massive feeling of
+
+17
+00:01:12,859 --> 00:01:16,719
+FOMO if you're not mastering the bleeding edge of these so-called superior technologies.
+
+18
+00:01:17,140 --> 00:01:20,799
+To be clear, I'm not discouraging you from learning these, they're awesome, but it's important
+
+19
+00:01:20,799 --> 00:01:25,239
+to understand that most of the real world where the jobs exist are not going to change their
+
+20
+00:01:25,239 --> 00:01:30,400
+dinosaur tech stacks anytime soon. The critical banking system still run on cobalt, and Java will
+
+21
+00:01:30,400 --> 00:01:35,280
+still be powering 3 billion devices long after everybody watching this is dead. Most CTOs are
+
+22
+00:01:35,280 --> 00:01:39,000
+smart enough to know that if it ain't broke, don't fix it. Here's a real life example.
+
+23
+00:01:39,299 --> 00:01:43,939
+A few years ago, engineers from Twitter released a hot new database called Fauna. It was a pretty
+
+24
+00:01:43,939 --> 00:01:48,760
+solid product and I even made a video about it, but the technology was proprietary, VC-funded,
+
+25
+00:01:48,760 --> 00:01:53,040
+and like most startups, the business failed recently. They have no choice but to shut down their
+
+26
+00:01:53,040 --> 00:01:57,280
+servers, and if you were an early adopter, you're now screwed. And would have been much better off
+
+27
+00:01:57,280 --> 00:02:01,859
+with a boring sequel database. Adopting tech too early is one thing, but adhering to programming
+
+28
+00:02:01,859 --> 00:02:06,200
+dogma can waste even more time. The problem with programming is that there are many different ways
+
+29
+00:02:06,200 --> 00:02:10,500
+to solve the same problem, but some people out there believe that there's only one true way to
+
+30
+00:02:10,500 --> 00:02:14,900
+write code. Some common quotes out there include the object-oriented purists and the functional
+
+31
+00:02:14,900 --> 00:02:18,740
+programming extremists. I've been a member of both cults and have learned a lot from them,
+
+32
+00:02:18,900 --> 00:02:22,840
+but dedicating your entire life to just one of them is a waste of time. I mostly code in
+
+33
+00:02:22,840 --> 00:02:27,439
+JavaScript, which is a multi-paradigm language that can satisfy all of these cults. In 2018,
+
+34
+00:02:27,759 --> 00:02:32,139
+functional programming was having a renaissance in web development. Back then, if you use classes in
+
+35
+00:02:32,139 --> 00:02:36,400
+your code, you were literally Hitler, and I found myself bending over backwards to try to do everything
+
+36
+00:02:36,400 --> 00:02:40,680
+in the most functional way possible. No mutable state and higher order functions everywhere,
+
+37
+00:02:40,680 --> 00:02:45,159
+but a few years later, after the spell wore off, I eventually realized that classes can be pretty
+
+38
+00:02:45,159 --> 00:02:49,460
+useful, and my code today often includes a combination of things I've learned from both of these
+
+39
+00:02:49,460 --> 00:02:54,080
+cults. But another time weister to watch out for is Clean Code, which comes from a legendary book
+
+40
+00:02:54,080 --> 00:02:59,180
+written by Uncle Bob Martin, known as the Handbook for agile software craftsmanship. Most of the
+
+41
+00:02:59,180 --> 00:03:03,860
+advice in this book is great. Use meaningful names, write small functions, use consistent formatting,
+
+42
+00:03:04,080 --> 00:03:08,759
+and so on, but some of the advice is a little more nuanced, like the dry principle of Don't repeat
+
+43
+00:03:08,759 --> 00:03:12,560
+yourself, which means you shouldn't duplicate or write the same code over and over again.
+
+44
+00:03:12,699 --> 00:03:16,719
+And on the surface, that seems like a good idea. But also, when you try too hard to keep things
+
+45
+00:03:16,719 --> 00:03:20,819
+clean, you might end up with an endless layer of wrappers, interfaces, and pointless
+
+46
+00:03:20,819 --> 00:03:25,580
+interaction. It's paralysis by analysis, and you end up spending more time refactoring than
+
+47
+00:03:25,580 --> 00:03:29,960
+building actual features that people want. I think a better acronym would be Rugg, repeat until
+
+48
+00:03:29,960 --> 00:03:34,580
+good. Duplicate code at first, and then pull it into a single abstraction after the repetition
+
+49
+00:03:34,580 --> 00:03:39,280
+becomes painful. The Clean Code also recommends test-driven development, and testing can be extremely
+
+50
+00:03:39,280 --> 00:03:44,699
+valuable, but it's a myth that 100% test coverage means that your code is well protected. Your boss,
+
+51
+00:03:44,699 --> 00:03:48,939
+who has no programming experience, is likely a big fan of code coverage tooling that will show how
+
+52
+00:03:48,939 --> 00:03:54,120
+much of your source code is executed when a test suite is run. It's interesting, but optimizing for
+
+53
+00:03:54,120 --> 00:03:59,259
+100% coverage is often a huge waste of time, and can often be misleading, because high coverage
+
+54
+00:03:59,259 --> 00:04:03,719
+does not equal high quality. Optimizing for coverage encourages developers to write pointless
+
+55
+00:04:03,719 --> 00:04:08,819
+tests that just touch lines and not catch real bugs, and even worse than wasting time, it provides a
+
+56
+00:04:08,819 --> 00:04:13,240
+full sense of security. And then on top of that, it makes your CI builds even slower, which is going
+
+57
+00:04:13,240 --> 00:04:17,639
+to cost you more money. When it comes to test coverage, it's quality, not quantity that matters,
+
+58
+00:04:17,920 --> 00:04:22,600
+but one thing that surely must matter is performance. Well, actually, it's a myth that you should always
+
+59
+00:04:22,600 --> 00:04:28,079
+optimize for performance, yet another time-waster is benchmarking an optimizing code that just doesn't
+
+60
+00:04:28,079 --> 00:04:32,560
+run at the scale to justify those optimizations. It's far more important to make sure that your code
+
+61
+00:04:32,560 --> 00:04:36,920
+is correct, and then only optimizes for performance when it becomes painfully obvious that your code
+
+62
+00:04:36,920 --> 00:04:41,300
+sucks in production. On a similar note, you also don't need to optimize your cloud infrastructure
+
+63
+00:04:41,300 --> 00:04:45,160
+like you're about to scale like Facebook. Like I used to think that I needed this complex,
+
+64
+00:04:45,360 --> 00:04:49,899
+serverless, microservice architecture with global sharding and edge caching, but it turns out that
+
+65
+00:04:49,899 --> 00:04:54,819
+one small VPS is perfectly fine for my five users. And then finally, that brings us to the elephant
+
+66
+00:04:54,819 --> 00:04:59,519
+in the room. The myth that AI is about to replace all programmers soon. There's some awesome AI
+
+67
+00:04:59,519 --> 00:05:03,779
+code writing tools out there, but it's becoming more and more clear that many programmers are now
+
+68
+00:05:03,779 --> 00:05:09,500
+wasting a bunch of time relying too much on AI. For example, Claude Sonnet 3.7 is really good at
+
+69
+00:05:09,500 --> 00:05:13,879
+writing code, but it's also notoriously verbose. You might ask it to build a simple website,
+
+70
+00:05:14,160 --> 00:05:18,100
+and it'll just randomly engineer some new JavaScript framework from scratch. And because you
+
+71
+00:05:18,100 --> 00:05:22,220
+forgot how to write code, you'll just approve it and move on with your life. AI programming tools
+
+72
+00:05:22,220 --> 00:05:26,560
+are both the greatest productivity booster I've ever seen in my life, but when used improperly,
+
+73
+00:05:26,560 --> 00:05:31,000
+they can also be the biggest time-waster. The key to success is to have a solid foundation and
+
+74
+00:05:31,000 --> 00:05:35,100
+problem solving, and you can start building that foundation for free today thanks to this video
+
+75
+00:05:35,100 --> 00:05:39,939
+sponsor, Brilliant. A hard truth is that code is useless if you don't understand the math and
+
+76
+00:05:39,939 --> 00:05:45,060
+computer science behind it. Brilliant helps you learn these concepts quickly by providing short, fun,
+
+77
+00:05:45,199 --> 00:05:49,839
+interactive lessons, which is a method proven to be six times more effective than watching video
+
+78
+00:05:49,839 --> 00:05:53,980
+lectures. But most importantly, you'll build critical thinking skills through problem solving,
+
+79
+00:05:53,980 --> 00:05:58,300
+not memorizing. Before you try to jump into vibe coding, I'd highly recommend taking
+
+80
+00:05:58,300 --> 00:06:02,579
+their thinking and code course to build a timeless problem solving foundation, where you'll learn
+
+81
+00:06:02,579 --> 00:06:07,680
+how to actually think like a programmer. Try everything Brilliant has to offer for free for 30 days
+
+82
+00:06:07,680 --> 00:06:13,459
+by visiting brilliant.org slash fireship or scan the QR code on screen and get 20% off an annual
+
+83
+00:06:13,459 --> 00:06:16,920
+premium subscription. Thanks for watching, and I will see you in the next one.
+

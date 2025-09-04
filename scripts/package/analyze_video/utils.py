@@ -10,6 +10,8 @@ from collections import defaultdict
 from scipy.ndimage import gaussian_filter1d
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+import subprocess
+import whisper
 
 from .config import (
     CUTS_DESCRIPTION_PATH,
@@ -19,7 +21,7 @@ from .config import (
 )
 
 
-def describe_image_with_llava(image_path: str) -> str:
+def describe_image_with_llava(image_path: str, prompt: str) -> str:
     """
     Sends an image to LLaVA 7B running on Ollama and returns the description.
 
@@ -33,7 +35,7 @@ def describe_image_with_llava(image_path: str) -> str:
     # Prepare request payload
     payload = {
         "model": "llava:7b",
-        "prompt": "Describe the main objects in this image which is a screenshot from a video briefly. The image may not be a real photo, can be a frame fo a special computer effect.",
+        "prompt": prompt,
         "images": [img_base64],
         "stream": False,  # single response instead of token stream
     }
@@ -205,3 +207,101 @@ def save_frames_from_video(video_path, frame_list, output_dir):
             print(f"Failed to read frame {frame_number}")
 
     cap.release()
+
+
+def summarize_description(description, model="llama3.2:latest", prompt=""):
+
+    url = "http://localhost:11434/api/generate"
+    prompt = f"{prompt}\n\n{description}"
+
+    # Payload for Ollama API
+    payload = {"model": "llama3.2:latest", "prompt": prompt}
+
+    # Send POST request
+    response = requests.post(url, json=payload)
+
+    # Parse response (Ollama streams responses line by line)
+    summary = ""
+    for line in response.iter_lines():
+        if line:
+            data = json.loads(line.decode("utf-8"))
+            if "response" in data:
+                summary += data["response"]
+    print("Summary:")
+    return summary
+
+
+def download_videos(url_list, output_path, command_args=[]):
+    for i, video in enumerate(url_list):
+        try:
+            command = (
+                [
+                    "yt-dlp",
+                    "-o",
+                    os.path.join(output_path, f"{i}.mp4"),
+                ]
+                + command_args
+                + [video]
+            )
+            result = subprocess.run(command, capture_output=True, text=True, check=True)
+            print("Download successful!")
+            print(result.stdout)
+        except subprocess.CalledProcessError as e:
+            print(f"Error: {e}")
+            print(f"Error output: {e.stderr}")
+
+
+def transcribe_to_srt(video_path, output_path="transcript.srt"):
+    # Load model
+    model = whisper.load_model("base")
+
+    # Transcribe with word-level timestamps
+    result = model.transcribe(video_path, word_timestamps=True)
+
+    # Generate SRT content
+    srt_content = ""
+    segment_count = 1
+
+    for segment in result["segments"]:
+        start_time = format_timestamp(segment["start"])
+        end_time = format_timestamp(segment["end"])
+        text = segment["text"].strip()
+
+        srt_content += f"{segment_count}\n"
+        srt_content += f"{start_time} --> {end_time}\n"
+        srt_content += f"{text}\n\n"
+        segment_count += 1
+
+    # Save SRT file
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(srt_content)
+
+    return srt_content
+
+
+def format_timestamp(seconds):
+    """Convert seconds to SRT timestamp format (HH:MM:SS,mmm)"""
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    seconds = seconds % 60
+    milliseconds = int((seconds % 1) * 1000)
+    seconds = int(seconds)
+
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d},{milliseconds:03d}"
+
+
+def prompt_ollama(prompt, model="qwen2.5:32b"):
+    url = "http://localhost:11434/api/generate"
+
+    data = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False,  # Get complete response at once
+    }
+
+    response = requests.post(url, json=data)
+
+    if response.status_code == 200:
+        return response.json()["response"]
+    else:
+        return f"Error: {response.status_code}"

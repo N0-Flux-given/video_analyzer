@@ -1,0 +1,364 @@
+1
+00:00:00,000 --> 00:00:07,480
+Yesterday, Google unleashed the most intense barrage of AI hype bait trust me bro bench marks and pay walled vaporware the world has ever seen.
+
+2
+00:00:07,839 --> 00:00:08,660
+And it was awesome.
+
+3
+00:00:08,939 --> 00:00:12,880
+A Gemini 2.5 deep-think crushed all other reasoning models like O3,
+
+4
+00:00:13,320 --> 00:00:17,140
+and even the cheap Gemini Flash model was able to beat off O3 from the top spot.
+
+5
+00:00:17,420 --> 00:00:21,699
+In the Chrome browser, Gemini will soon have the ability to navigate and use websites for you,
+
+6
+00:00:21,839 --> 00:00:25,519
+meanwhile this new tool called Stitch will automatically generate and design UIs,
+
+7
+00:00:25,879 --> 00:00:27,879
+which means you're really screwed if you're a web designer.
+
+8
+00:00:27,879 --> 00:00:32,000
+AI is going to be designing websites for AI agents to use in the AI power browser.
+
+9
+00:00:32,320 --> 00:00:36,420
+Meanwhile, Joules is an ASync Agent at Coding Agent that will code your AI agents,
+
+10
+00:00:36,579 --> 00:00:38,299
+making coders obsolete yet again.
+
+11
+00:00:38,539 --> 00:00:41,759
+I'm afraid of no man, but this new AI tool called Flow scares me.
+
+12
+00:00:41,920 --> 00:00:46,399
+This thing could actually make low effort faceless edge lords on YouTube obsolete by generating
+
+13
+00:00:46,399 --> 00:00:50,420
+entire cinematic adventures with AI. But that's just the tip of the slotberg.
+
+14
+00:00:50,780 --> 00:00:55,560
+In today's video, we'll break down 11 game changing things you need to know from Google IO 2025.
+
+15
+00:00:55,560 --> 00:00:59,340
+It is May 21st, 2025, and you're watching the code report.
+
+16
+00:00:59,560 --> 00:01:02,060
+When I went to watch the keynote, I saw that they had turned off comments,
+
+17
+00:01:02,320 --> 00:01:05,900
+and it's obvious this cowardly move is because they already knew what the top comment would be.
+
+18
+00:01:06,060 --> 00:01:08,060
+And that's why we're going to talk about the worst thing first.
+
+19
+00:01:08,340 --> 00:01:10,359
+Google's new AI Ultra Payment Plan.
+
+20
+00:01:10,599 --> 00:01:13,799
+I'm already on my second second mortgage to afford all my AI subscriptions,
+
+21
+00:01:13,900 --> 00:01:17,140
+but now to get access to the full-growth of Gemini's power,
+
+22
+00:01:17,420 --> 00:01:19,620
+you need the new Google AI Ultra subscription,
+
+23
+00:01:19,620 --> 00:01:24,200
+which is available at the low-low price of $124.99 per month for three months,
+
+24
+00:01:24,439 --> 00:01:26,500
+then $249 a month after that.
+
+25
+00:01:26,739 --> 00:01:29,400
+And if you buy right now, they'll also throw in one month free,
+
+26
+00:01:29,640 --> 00:01:33,099
+and an absurd 30 terabytes of storage for all your generated slopp.
+
+27
+00:01:33,280 --> 00:01:37,719
+But that might be worth it, because Gemini is now the best across all LM Arena categories.
+
+28
+00:01:38,000 --> 00:01:40,900
+Not surprisingly, it completely crushed its own Trust Me Bro benchmarks,
+
+29
+00:01:41,359 --> 00:01:42,859
+and the vibes are strong with this one.
+
+30
+00:01:43,040 --> 00:01:45,400
+It Gemini also managed to be Pokemon on its own,
+
+31
+00:01:45,560 --> 00:01:48,560
+but what might be more exciting is the release of Gemma 3N.
+
+32
+00:01:48,560 --> 00:01:50,939
+Gemma models are open, so as a developer,
+
+33
+00:01:51,180 --> 00:01:53,159
+you can use them to make money for your own products,
+
+34
+00:01:53,459 --> 00:01:56,540
+and the performance of this one is approaching Claude's on at 3.7.
+
+35
+00:01:56,900 --> 00:02:00,480
+Now, as I mentioned before, Gemini is also going to be coming in your browser soon,
+
+36
+00:02:00,599 --> 00:02:02,859
+and its new agent mode, Formally Project Mariner,
+
+37
+00:02:03,219 --> 00:02:05,359
+will allow it to take actual actions on websites,
+
+38
+00:02:05,659 --> 00:02:07,159
+like click buttons, fill out forms,
+
+39
+00:02:07,500 --> 00:02:10,919
+and automatically generate your opinion to post a comment to a FireShift video.
+
+40
+00:02:11,159 --> 00:02:14,620
+At the end of 2024, I told you that 2025 was the year of agents.
+
+41
+00:02:14,939 --> 00:02:16,620
+Open AI just launched the Codex agent,
+
+42
+00:02:16,620 --> 00:02:18,479
+GitHub Co-Pilot Launch Agent Mode,
+
+43
+00:02:18,699 --> 00:02:21,319
+and now Gemini has its own creatively named agent mode.
+
+44
+00:02:21,520 --> 00:02:24,199
+And agents will be used in tools like Stitch and Joules
+
+45
+00:02:24,199 --> 00:02:26,599
+to automatically generate UIs, Code Them,
+
+46
+00:02:26,860 --> 00:02:28,439
+and Interface with tools like Vigma.
+
+47
+00:02:28,759 --> 00:02:31,879
+The best news though is that Google supports the Model Context Protocol,
+
+48
+00:02:32,219 --> 00:02:34,960
+which makes it much easier for developers to integrate this tech.
+
+49
+00:02:35,159 --> 00:02:37,419
+That's surprising because Google would normally go off
+
+50
+00:02:37,419 --> 00:02:39,680
+and invent its own architecture that nobody asked for,
+
+51
+00:02:39,879 --> 00:02:41,099
+and then kill it a few years later.
+
+52
+00:02:41,340 --> 00:02:44,460
+But one of the most impressive things at IO is Project Astra.
+
+53
+00:02:44,460 --> 00:02:47,539
+It takes a live video feed and uses low latency AI
+
+54
+00:02:47,539 --> 00:02:49,300
+to describe the world around you.
+
+55
+00:02:49,379 --> 00:02:52,060
+I've been using it to identify which mushrooms are edible in the wild,
+
+56
+00:02:52,060 --> 00:02:53,460
+and it's actually pretty useful.
+
+57
+00:02:53,740 --> 00:02:56,419
+We also found out that Android XR glasses are real,
+
+58
+00:02:56,620 --> 00:02:59,199
+and eventually this technology will be integrated into them
+
+59
+00:02:59,199 --> 00:03:01,699
+to compete with things like the Meta Smart Raybanz.
+
+60
+00:03:01,819 --> 00:03:04,560
+But an even more futuristic announcement was Project Beam,
+
+61
+00:03:04,840 --> 00:03:09,599
+a tool that takes 2D video and uses AI to transform it into a 3D experience.
+
+62
+00:03:09,840 --> 00:03:12,099
+That'll make your daily stand-up meetings much more realistic,
+
+63
+00:03:12,099 --> 00:03:14,780
+and I think it could be a game changer for one other industry
+
+64
+00:03:14,780 --> 00:03:17,479
+that I can't mention in this video without being demonetized.
+
+65
+00:03:17,680 --> 00:03:21,099
+In addition, VO and Imogen, Google's video and image generators
+
+66
+00:03:21,099 --> 00:03:22,460
+also got huge upgrades.
+
+67
+00:03:22,819 --> 00:03:26,099
+And what's crazy is that you can now generate video that also has sound.
+
+68
+00:03:26,280 --> 00:03:29,120
+And she commands your awe with every breaking light.
+
+69
+00:03:29,240 --> 00:03:31,699
+And this is all being put together in a new tool called Flow,
+
+70
+00:03:31,979 --> 00:03:33,780
+which is targeted at Hollywood Studios.
+
+71
+00:03:34,199 --> 00:03:37,360
+And someday might be used to generate all the content that you've been on Netflix.
+
+72
+00:03:37,659 --> 00:03:39,620
+And that brings us to the final thing you need to know,
+
+73
+00:03:39,620 --> 00:03:41,819
+which is absolutely insane and crazy,
+
+74
+00:03:42,080 --> 00:03:43,439
+and I can't even believe I'm saying this,
+
+75
+00:03:43,740 --> 00:03:46,680
+but CSS has new primitives for building carousels.
+
+76
+00:03:46,900 --> 00:03:48,599
+Instead of 10,000 lines of jQuery,
+
+77
+00:03:48,979 --> 00:03:51,879
+you can now build something like this with just a few hundred lines of CSS.
+
+78
+00:03:52,439 --> 00:03:54,979
+And once you've done that, you'll need a server to deploy it to,
+
+79
+00:03:55,199 --> 00:03:57,379
+like Hostinger, the sponsor of today's video.
+
+80
+00:03:57,620 --> 00:04:00,139
+Not only do they provide fully managed hosting solutions,
+
+81
+00:04:00,139 --> 00:04:03,560
+but also virtual private servers where you can deploy anything.
+
+82
+00:04:03,699 --> 00:04:04,919
+For under 10 bucks per month,
+
+83
+00:04:04,919 --> 00:04:07,719
+you could be running your own server with predictable pricing
+
+84
+00:04:07,719 --> 00:04:10,800
+and a respectable two-CPUs and eight gigabytes of RAM.
+
+85
+00:04:11,080 --> 00:04:12,360
+In fact, when you create a server,
+
+86
+00:04:12,620 --> 00:04:15,139
+you can automatically configure it with tools like Coolify,
+
+87
+00:04:15,400 --> 00:04:19,199
+which makes it possible to host next JS on your own VPS with minimal pain.
+
+88
+00:04:19,379 --> 00:04:21,899
+If you're looking for freedom and an awesome developer experience,
+
+89
+00:04:22,079 --> 00:04:23,740
+check out Hostinger with the link below.
+
+90
+00:04:23,980 --> 00:04:24,860
+This has been the Code Report.
+
+91
+00:04:25,100 --> 00:04:27,300
+Thanks for watching, and I will see you in the next one.
+

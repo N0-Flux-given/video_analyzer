@@ -1,0 +1,192 @@
+1
+00:00:00,000 --> 00:00:05,679
+Yesterday, after achieving a quote, ludicrous rate of progress, Elon Musk released his AI chat
+
+2
+00:00:05,679 --> 00:00:10,439
+bottom-large language model GROC4, and claims it's the smartest AI in the world, along with the
+
+3
+00:00:10,439 --> 00:00:15,300
+Trust Me Bro benchmarks to back it up. It can achieve perfect SAT scores every time, and out
+
+4
+00:00:15,300 --> 00:00:19,839
+performs almost every grad student in every discipline. Vibescoaters have been dropping all kinds
+
+5
+00:00:19,839 --> 00:00:25,120
+of crazy demos with it, like this 3D first-person shooter built in 4 hours, and Elon himself claims
+
+6
+00:00:25,120 --> 00:00:29,260
+it's even better than cursor. All you have to do is copy and paste your entire codebase into it.
+
+7
+00:00:29,260 --> 00:00:34,520
+In addition, SuperGROC4 Heavy can run in parallel to solve complex problems, while your obsolete
+
+8
+00:00:34,520 --> 00:00:39,380
+monkey brain looks and ought this beautiful futuristic UI. It all sounds amazing, but there's
+
+9
+00:00:39,380 --> 00:00:43,619
+just one problem. GROC is literally mecha-hitler, or at least that's what it's been calling itself
+
+10
+00:00:43,619 --> 00:00:48,979
+recently, while offering unprompted praise to the original emo kid, Adolf H. Yes, the Austrian
+
+11
+00:00:48,979 --> 00:00:54,340
+painter who died in Argentina in 1962. Despite this controversy, though, GROC appears to have
+
+12
+00:00:54,340 --> 00:00:58,979
+pulled ahead in the race to AGI. In today's video, we'll put it to the ultimate test and find out
+
+13
+00:00:58,979 --> 00:01:04,939
+if XAI just cracked the final solution to artificial intelligence. It is July 11th, 2025, and you're
+
+14
+00:01:04,939 --> 00:01:09,359
+watching the code report. Elon Musk might have more haters than anyone else in the world right now.
+
+15
+00:01:09,719 --> 00:01:14,159
+Libs hate him for going full maga, while maga hates him for accusing Trump of being on the Epstein
+
+16
+00:01:14,159 --> 00:01:18,840
+client list. A list that was on the Attorney General's desk, but now magically never existed.
+
+17
+00:01:19,239 --> 00:01:23,159
+It turns out this poor guy was just a math teacher with no clients at all. The haters want to
+
+18
+00:01:23,159 --> 00:01:27,540
+see Elon fail, but GROC4 is too impressive to ignore. If we're to trust these benchmarks,
+
+19
+00:01:27,540 --> 00:01:32,900
+its reasoning capabilities are far ahead of the other top models, most notably on the Arc AGI
+
+20
+00:01:32,900 --> 00:01:38,140
+benchmark. It's not only outperforming other models, but also doing it at a lower cost. And XAI
+
+21
+00:01:38,140 --> 00:01:42,340
+is scaling up very aggressively, like they're even shipping a power plant from overseas because
+
+22
+00:01:42,340 --> 00:01:46,780
+they can't get it done fast enough in the United States. The thing is though, every model nowadays is
+
+23
+00:01:46,780 --> 00:01:51,480
+cooked to look as good as possible on benchmarks, and the one true test is to have it solve real problems
+
+24
+00:01:51,480 --> 00:01:56,439
+in your own life. You can use GROC4 for just $30 per month, or if you're not already broke from
+
+25
+00:01:56,439 --> 00:02:02,599
+OpenAI Pro, Cloud Max, and Gemini Ultra, you can use SuperGROC4 Heavy for just $300 per month.
+
+26
+00:02:02,780 --> 00:02:07,340
+A version with higher rate limits and the ability to run multiple agents in parallel, but one problem
+
+27
+00:02:07,340 --> 00:02:12,379
+in my life is building spelt 5 apps with runes. So let's see if we can make GROC4 build a simple
+
+28
+00:02:12,379 --> 00:02:16,759
+to do app with this tech. I've tried this prompt with every other AI tool out there, but none have
+
+29
+00:02:16,759 --> 00:02:21,080
+been able to satisfy me. When prompted, GROC did a ton of research. It went to the documentation,
+
+30
+00:02:21,539 --> 00:02:25,879
+it went to Reddit, GitHub, and even watched YouTube videos. And the end result was a full working
+
+31
+00:02:25,879 --> 00:02:30,379
+demo that did use the new runes feature in spelt 5. However, when I looked a little more closely
+
+32
+00:02:30,379 --> 00:02:35,699
+at the code, I noticed it was using some legacy syntax that required some manual debugging. Overall,
+
+33
+00:02:35,960 --> 00:02:40,900
+GROC's coding capability seemed to be on par with the other big models, but it's missing a CLI tool
+
+34
+00:02:40,900 --> 00:02:45,840
+like Cloud Code. However, if it's as good as they say it is, why can't it just build its own CLI tool?
+
+35
+00:02:46,020 --> 00:02:50,039
+Well, actually it can, and that's exactly what this guy did. If we're truly advancing into the
+
+36
+00:02:50,039 --> 00:02:54,780
+singularity, AI can and should be building all of its own tooling at this point. Pretty cool,
+
+37
+00:02:54,780 --> 00:02:58,520
+but if you're still afraid to use it because of Hitler, you'll be happy to know that Elon said
+
+38
+00:02:58,520 --> 00:03:03,080
+it wasn't manipulated into saying this. Maybe that's true, maybe not, but in general, GROC has far
+
+39
+00:03:03,080 --> 00:03:07,620
+fewer guardrails on offensive speech compared to other mainstream models. And this gives the end
+
+40
+00:03:07,620 --> 00:03:12,500
+user the ability to steer it in unique ways that some might find offensive. AI is now writing more
+
+41
+00:03:12,500 --> 00:03:16,919
+of our code than ever, but according to a recent Microsoft study, it still sucks at debugging,
+
+42
+00:03:17,180 --> 00:03:21,419
+which is why you should check out Century, the sponsor of today's video. They just launched a new
+
+43
+00:03:21,419 --> 00:03:27,000
+AI debugging agent called SEAR, which developers claim is actually good and capable of fixing complex
+
+44
+00:03:27,000 --> 00:03:32,139
+issues in one shot. That's because unlike other AI debugging tools, SEAR can access all the
+
+45
+00:03:32,139 --> 00:03:37,439
+context that it gets from your codebase. Like error data, logs, and stack traces, allowing it to
+
+46
+00:03:37,439 --> 00:03:43,400
+pinpoint the root cause with over 94% accuracy. Using this context, it automatically debugs the root
+
+47
+00:03:43,400 --> 00:03:49,120
+cause of your issue and opens a pull request with a fix. Try out SEAR for free today at century.io
+
+48
+00:03:49,120 --> 00:03:53,860
+slash fireship. This has been the code report, thanks for watching, and I will see you in the next one.
+

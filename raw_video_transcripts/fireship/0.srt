@@ -1,0 +1,248 @@
+1
+00:00:00,000 --> 00:00:06,620
+ISO slash IEC 9899 is arguably the most important document in the history of human kind.
+
+2
+00:00:06,700 --> 00:00:10,699
+More significant than the Magna Carta, his built more wealth and Satoshi's Bitcoin white
+
+3
+00:00:10,699 --> 00:00:14,759
+paper, and is even more sacred than the Moon Landing Telemetry data which was lost by NASA.
+
+4
+00:00:15,119 --> 00:00:18,460
+This document is the official spec for the C programming language.
+
+5
+00:00:18,699 --> 00:00:24,519
+The mother of almost all modern languages like C++, Java, JavaScript, Python, and is also
+
+6
+00:00:24,519 --> 00:00:29,859
+the foundation for operating systems, compilers, encryption tools, game engines, and smart toilets.
+
+7
+00:00:30,239 --> 00:00:34,939
+It's a simple humble language that built the world, but sometimes it also likes to destroy the world.
+
+8
+00:00:35,079 --> 00:00:39,060
+In today's video, we'll look at five simple code examples of memory management in C.
+
+9
+00:00:39,359 --> 00:00:43,579
+A five code example is that go hard. It code that's cost companies billions of dollars and put
+
+10
+00:00:43,579 --> 00:00:47,479
+programmers in jail. But you might be saying to yourself, wait a minute, I'm just a soy dev who
+
+11
+00:00:47,479 --> 00:00:52,159
+relies on garbage collection and this is above my pay grade. Well actually, memory management in C
+
+12
+00:00:52,159 --> 00:00:56,880
+is something you can learn in 30 seconds. C forces you to grow up and manage memory by yourself.
+
+13
+00:00:57,100 --> 00:01:01,240
+That means if you want to put some data into the computer's RAM, you allocate some bytes with
+
+14
+00:01:01,240 --> 00:01:05,900
+the malloc function. It returns a memory address that looks like this, which you can then access
+
+15
+00:01:05,900 --> 00:01:10,420
+in your code using a pointer, which itself is just a variable that points to a memory address.
+
+16
+00:01:10,739 --> 00:01:15,299
+And now we can start putting crap in it, but every malloc also needs a free, which will release
+
+17
+00:01:15,299 --> 00:01:18,760
+the memory when you're done with it. That's pretty much all there is to it, and it didn't even
+
+18
+00:01:18,760 --> 00:01:23,019
+take 30 seconds to master it, but with great power comes a million different ways to shoot yourself
+
+19
+00:01:23,019 --> 00:01:27,840
+in the foot. Like don't call free twice, never use freed memory, don't call free after midnight,
+
+20
+00:01:28,079 --> 00:01:32,319
+and definitely don't forget to do bounds checking. One of the first large scale attacks on the internet
+
+21
+00:01:32,319 --> 00:01:38,319
+was the Morris worm. In 1988, it took out about 6,000 machines, which at the time was 10% of the internet,
+
+22
+00:01:38,540 --> 00:01:42,400
+and it was able to do that because libraries like fingered and send mail had code that looks
+
+23
+00:01:42,400 --> 00:01:48,319
+similar to this. Here we have a buffer with 512 bytes. Then we put some data into it, but the problem
+
+24
+00:01:48,319 --> 00:01:53,140
+is we're not checking the size, which could result in a buffer overflow. This allowed the worm to
+
+25
+00:01:53,140 --> 00:01:58,159
+overwrite return addresses on the stack, allowing for arbitrary code execution. That's because C
+
+26
+00:01:58,159 --> 00:02:02,739
+doesn't automatically perform bounds checking, and if you try to do something like access and array
+
+27
+00:02:02,739 --> 00:02:07,579
+out of bounds, it leads to undefined behavior. But this can be fixed in a variety of ways, with the
+
+28
+00:02:07,579 --> 00:02:11,699
+most simple approach being a conditional statement. The creator of the Morris worm almost ended up
+
+29
+00:02:11,699 --> 00:02:17,620
+in prison, but it's nowhere near as bad as Heartbleed in 2014. Open SSL, he used an extension called
+
+30
+00:02:17,620 --> 00:02:22,180
+Heartbeat, which was designed to keep a connection between a client and server alive. What's
+
+31
+00:02:22,180 --> 00:02:26,360
+supposed to happen on a normal Heartbeat is the client sends a message like I'm sending 5
+
+32
+00:02:26,360 --> 00:02:31,080
+bytes with a message hello. Then the server will echo back hello. It's simple enough, but it was
+
+33
+00:02:31,080 --> 00:02:35,840
+missing one thing. The code didn't actually verify that the number of bytes matched the actual
+
+34
+00:02:35,840 --> 00:02:40,199
+length of the value. That allowed attackers to send a malicious Heartbeat, where the client would say,
+
+35
+00:02:40,400 --> 00:02:46,379
+I'm sending 64,000 bytes with a value of hello. Then the server would copy back all those 64,000
+
+36
+00:02:46,379 --> 00:02:51,599
+bytes, which could contain sensitive information like private encryption keys, passwords, and so on.
+
+37
+00:02:51,699 --> 00:02:55,939
+And because this bug occurred on Open SSL, which is encryption software that powers millions of
+
+38
+00:02:55,939 --> 00:03:01,039
+websites, it fixing it became a massive disaster. But another way to mess up C code is to use memory
+
+39
+00:03:01,039 --> 00:03:05,879
+after it's been free. And that's exactly what happened to Internet Explorer in 2013. The C code
+
+40
+00:03:05,879 --> 00:03:09,960
+looks like this, where you allocate some memory, but free it, and then try to use it again somewhere
+
+41
+00:03:09,960 --> 00:03:14,900
+later in the code. In this case, the code lived in Internet Explorer 8, and was meant to free up memory
+
+42
+00:03:14,900 --> 00:03:20,020
+when JavaScript code would remove elements from an HTML page. However, the pointer to the freed
+
+43
+00:03:20,020 --> 00:03:25,120
+object still exists in Internet Explorer's internal structure, and that allowed attackers to set up
+
+44
+00:03:25,120 --> 00:03:29,580
+malicious websites that could take control of your system by doing nothing more than visiting a
+
+45
+00:03:29,580 --> 00:03:34,659
+website. That's not good, but when working with C, it's also important to know how to count properly,
+
+46
+00:03:35,000 --> 00:03:40,099
+because being off by one can lead to catastrophic results. In this code example, we're using a
+
+47
+00:03:40,099 --> 00:03:45,139
+function from the C standard library to append some values to a string. But because we didn't take
+
+48
+00:03:45,139 --> 00:03:50,419
+into account an old terminated character, we're going to get yet another buffer overflow. And finally,
+
+49
+00:03:50,580 --> 00:03:54,719
+that brings us to double free. In this code here, you'll notice that we're freeing the same memory
+
+50
+00:03:54,719 --> 00:03:59,599
+twice in two different parts of the program. The freeing memory twice may not sound like a big deal,
+
+51
+00:03:59,800 --> 00:04:05,020
+but it leads to undefined behavior at which point your code sucks, and all bets are off. Your program
+
+52
+00:04:05,020 --> 00:04:09,819
+might work fine, it might crash, or it could allow an attacker's right arbitrary values in memory.
+
+53
+00:04:10,180 --> 00:04:14,860
+As you can see, C can be dangerous, but it's the foundation for all sorts of amazing software,
+
+54
+00:04:15,180 --> 00:04:19,279
+like everybody's favorite SQL database Postgres. And that's why you need to know about GEL,
+
+55
+00:04:19,600 --> 00:04:24,899
+the sponsor of today's video. A next-gen Postgres database platform that lets you model your data
+
+56
+00:04:24,899 --> 00:04:29,959
+with simple types instead of tables. Not only is it more natural to work with, but it also provides
+
+57
+00:04:29,959 --> 00:04:35,740
+total type safety, graph-like modeling, and painless schema migrations. GEL's Typesafe QueryBuilder
+
+58
+00:04:35,740 --> 00:04:40,079
+gives you all the power of SQL, but with modern tooling that makes it feel like you're programming
+
+59
+00:04:40,079 --> 00:04:46,079
+in 2025, not 2005. You can use their next JS starter template, like I'm doing here, to get up and
+
+60
+00:04:46,079 --> 00:04:50,639
+running in just a few minutes, and you can use their built-in auth and AI solutions to add more
+
+61
+00:04:50,639 --> 00:04:55,259
+advanced features over time. Try out GEL with the link below to get started today. Thanks for
+
+62
+00:04:55,259 --> 00:04:57,259
+watching, and I will see you in the next one.
+

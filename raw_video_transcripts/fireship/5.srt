@@ -1,0 +1,236 @@
+1
+00:00:00,000 --> 00:00:05,059
+This is Dr. Zhao Feng Wang, a tenured professor at Indiana University Bloomington,
+
+2
+00:00:05,259 --> 00:00:09,060
+who's published hundreds of papers on computer science, cybersecurity, and privacy.
+
+3
+00:00:09,359 --> 00:00:12,980
+But a few days ago, Dr. Wang disappeared under mysterious circumstances.
+
+4
+00:00:13,320 --> 00:00:18,179
+The university wiped his profile page, the FBI rated his home, and it's like his 21-year career
+
+5
+00:00:18,179 --> 00:00:22,160
+never existed. It's weird because much of his recent work is centered around machine learning
+
+6
+00:00:22,160 --> 00:00:26,940
+security like the detection of back-door, large language models. Nobody knows where he is or what
+
+7
+00:00:26,940 --> 00:00:30,320
+he did to get on the Fed's naughty list, but it's yet another example of how dangerous
+
+8
+00:00:30,320 --> 00:00:34,659
+programmers can be when we're actually employed. In today's video, we'll try to entangle the
+
+9
+00:00:34,659 --> 00:00:39,259
+mystery of Dr. Wang, but also look at a few other crazy programmers who recently sabotaged
+
+10
+00:00:39,259 --> 00:00:44,640
+computer systems from the inside out. It is April 2, 2025, and you're watching the code report.
+
+11
+00:00:44,899 --> 00:00:48,659
+A few years ago, if you drove a Tesla down the street, if people would give you a thumbs-up
+
+12
+00:00:48,659 --> 00:00:53,020
+for virtue signaling that you care about global warming. But nowadays, the same people will give
+
+13
+00:00:53,020 --> 00:00:57,200
+you a different finger right before they throw a Moltov cocktail at your car. But what does that
+
+14
+00:00:57,200 --> 00:01:01,219
+have to do with Dr. Wang? Well, one of the leading theories is that he was disappeared by the
+
+15
+00:01:01,219 --> 00:01:05,459
+government, Paul Potts' style, and Elon is personally waterboarding him at Gitmo as we speak.
+
+16
+00:01:05,700 --> 00:01:09,299
+And that's a reasonable conclusion if he is an actual Chinese spy that threatens national
+
+17
+00:01:09,299 --> 00:01:13,519
+security. But Reddit is not always a great place to find the truth. A few weeks ago,
+
+18
+00:01:13,519 --> 00:01:18,019
+somebody filed misconduct allegations against Wang where he was accused of mislabeling the principal
+
+19
+00:01:18,019 --> 00:01:23,060
+investigator for a grant and failing to disclose co-authors. That doesn't explain the FBI raid,
+
+20
+00:01:23,180 --> 00:01:27,159
+but what appears more likely is that he disappeared on his own, because he knew he was doing very
+
+21
+00:01:27,159 --> 00:01:31,260
+bad things and the hammer was coming down, especially after being locked out of his work computer.
+
+22
+00:01:31,420 --> 00:01:34,939
+In addition, it has now been confirmed by someone in China that he's alive and safe,
+
+23
+00:01:35,140 --> 00:01:39,319
+and wasn't disappeared by the government. The truth is that nobody knows where he is or what he did.
+
+24
+00:01:39,579 --> 00:01:44,219
+But it's a good reminder that skilled programmers are extremely dangerous. Like just a few weeks ago,
+
+25
+00:01:44,219 --> 00:01:48,939
+a software developer from Texas named Davis Liu was convicted of criminal sabotage,
+
+26
+00:01:49,040 --> 00:01:53,000
+and now faces 10 years in prison. What he did was pretty hilarious though. After corporate
+
+27
+00:01:53,000 --> 00:01:57,340
+re-alignment, he realized that he was probably going to get fired. So he prepared for that day
+
+28
+00:01:57,340 --> 00:02:01,480
+by programming a kill switch in Java. When his name was no longer in the act of directory,
+
+29
+00:02:01,760 --> 00:02:05,840
+it would automatically create infinite loops to crash servers, delete coworker profiles,
+
+30
+00:02:06,260 --> 00:02:10,460
+and lock out other users from the system, which made it far more difficult to kill the kill switch.
+
+31
+00:02:10,460 --> 00:02:14,240
+When he was fired on September 9th, 2019, the kill switch was activated,
+
+32
+00:02:14,419 --> 00:02:16,960
+and his employer lost hundreds of thousands of dollars as a result.
+
+33
+00:02:17,099 --> 00:02:21,860
+But a kill switch is very similar to a logic bomb, like the ones implemented by David Tinsley at
+
+34
+00:02:21,860 --> 00:02:26,039
+Siemens. This guy had an idea for an infinite money glitch, because he wrote some code that would
+
+35
+00:02:26,039 --> 00:02:30,400
+trigger every couple months to overload their automated spreadsheet software. And when that happened,
+
+36
+00:02:30,680 --> 00:02:34,520
+Siemens would have to pay David to fix it, but David made the mistake of going on vacation,
+
+37
+00:02:34,840 --> 00:02:39,080
+and when the logic bomb was triggered, they had someone else fix it and realized that it wasn't a bug at
+
+38
+00:02:39,080 --> 00:02:43,979
+all, but rather an act of sabotage that got him six months in prison and a $7,500 fine.
+
+39
+00:02:44,199 --> 00:02:47,560
+The scary thing is that any programmer could easily implement something like this,
+
+40
+00:02:47,680 --> 00:02:51,639
+like the code here that will automatically delete all the files on my employer server on my
+
+41
+00:02:51,639 --> 00:02:56,340
+birthday. But sometimes a programmer can be a menace to society without having to write any code.
+
+42
+00:02:56,539 --> 00:03:00,819
+Like in 2013, Terry Child set up the fiber optic network for the city of San Francisco.
+
+43
+00:03:01,219 --> 00:03:04,439
+At the time, there were rumors of tech layoffs coming, and when the city asked
+
+44
+00:03:04,439 --> 00:03:09,159
+child for the passwords, he just said no, which basically shut down the city government for 12 days.
+
+45
+00:03:09,400 --> 00:03:13,219
+They threw him in jail, and he still refused until eventually he succumbed to the power of
+
+46
+00:03:13,219 --> 00:03:17,500
+Mayor Gavin Newsom's haircut. He finally gave up the passwords, but was given four years in prison.
+
+47
+00:03:17,840 --> 00:03:22,159
+The bottom line is that programmers are dangerous. Trust no one, not even a highly respected
+
+48
+00:03:22,159 --> 00:03:26,680
+expert like Dr. Wang. The best way to protect yourself, though, is to become an expert in cybersecurity
+
+49
+00:03:26,680 --> 00:03:31,599
+with TriHackMe, the sponsor of today's video. It's the world's largest cybersecurity training
+
+50
+00:03:31,599 --> 00:03:35,680
+platform where you build technical skills by completing real world hacking challenges.
+
+51
+00:03:36,080 --> 00:03:40,659
+Like in this lesson, you use a virtual machine that you control in your browser to hack into a bank.
+
+52
+00:03:40,840 --> 00:03:44,900
+I'm not exactly sure how this is legal, but over 4 million developers have taken their courses,
+
+53
+00:03:45,259 --> 00:03:49,020
+and it's used by a bunch of big tech companies and government agencies. You can start at any skill
+
+54
+00:03:49,020 --> 00:03:53,379
+level, then quickly earn points as you progress through their game-of-vibe lessons. Just remember,
+
+55
+00:03:53,520 --> 00:03:57,199
+to use your powers for good. There's going to be a lot of really bad vibe-coded applications
+
+56
+00:03:57,199 --> 00:04:01,300
+out there in the near future, and with TriHackMe, you can learn how to exploit them to make the world
+
+57
+00:04:01,300 --> 00:04:04,800
+a better place. It's start becoming a cybersecurity expert for free right now,
+
+58
+00:04:05,039 --> 00:04:09,360
+using the link below to get 20% off an annual premium subscription. If this has been the code
+
+59
+00:04:09,360 --> 00:04:12,139
+report, thanks for watching, and I will see you in the next one.
+

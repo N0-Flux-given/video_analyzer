@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:04,480
+Last week, Builder AI, a UK-based startup, once valued at 1.5 billion,
+
+2
+00:00:04,860 --> 00:00:08,599
+backed by Microsoft and of course, SoftBank, has collapsed back to $0.
+
+3
+00:00:09,279 --> 00:00:12,839
+This comes at a time when literally all my friends are becoming billionaires by putting the
+
+4
+00:00:12,839 --> 00:00:16,280
+letters AI in front of their startup names, but the party can't go on forever.
+
+5
+00:00:16,739 --> 00:00:21,899
+Like most startups out there nowadays, Builder AI offered a vibe-coding platform called Builder Studio,
+
+6
+00:00:22,199 --> 00:00:25,640
+that promised to make you software without any technical expertise required.
+
+7
+00:00:25,859 --> 00:00:29,500
+But as it turns out, that promise is hard to keep in reality, and I kid you not,
+
+8
+00:00:29,500 --> 00:00:34,880
+their solution to half-ast AI code was instead to use a room full of underpaid Indian programmers
+
+9
+00:00:34,880 --> 00:00:39,420
+to massage the slop into a working demo. In other words, it's an artificial intelligence tool
+
+10
+00:00:39,420 --> 00:00:43,060
+powered by biological intelligence. As ridiculous as that sounds though,
+
+11
+00:00:43,340 --> 00:00:47,880
+it's not the main reason Builder AI collapsed. They were also engaging in outright fraud to make
+
+12
+00:00:47,880 --> 00:00:52,340
+their mirror go burr. In today's video, we'll find out what went wrong and what it means for the
+
+13
+00:00:52,340 --> 00:00:57,840
+future of AI coding startups. It is June 3rd, 2025, and you're watching the code report.
+
+14
+00:00:57,840 --> 00:01:01,640
+It's been a while, a few days, for the AI enthusiast. The Clawed 4 was released,
+
+15
+00:01:01,960 --> 00:01:07,140
+and it made Clawed 3.7 slightly better. Then just after that, DeepSeek R1 gets an update that
+
+16
+00:01:07,140 --> 00:01:11,799
+makes DeepSeek R1 slightly better. We're not talking about exponential runaway intelligence here,
+
+17
+00:01:12,019 --> 00:01:15,319
+which is kind of disappointing, but we'll take what we can get to keep the hype train going.
+
+18
+00:01:15,579 --> 00:01:19,659
+But maybe we'll go exponential soon, because a new paper just dropped, describing the
+
+19
+00:01:19,659 --> 00:01:24,799
+Darwin-Godell machine. A self-improving AI system that iteratively modifies its Python
+
+20
+00:01:24,799 --> 00:01:29,920
+codebase to validate its own coding capabilities on software engineering benchmarks using frozen
+
+21
+00:01:29,920 --> 00:01:34,659
+foundation models. It sounds kind of like Google Alpha code, but if it actually works, we really
+
+22
+00:01:34,659 --> 00:01:39,060
+are cooked this time. But if your goal is to make money, the most important lesson to remember is
+
+23
+00:01:39,060 --> 00:01:43,659
+that your tech doesn't actually need to work to get super rich. The Builder AI used that wisdom
+
+24
+00:01:43,659 --> 00:01:48,959
+to create a product that quickly went from 0 to 1.5 billion, then back to 0 again. And on the
+
+25
+00:01:48,959 --> 00:01:54,299
+website, they say we make building an app so easy that even a caveman can do it. The way it works is
+
+26
+00:01:54,299 --> 00:01:59,239
+that you prompt it just like Chatchy PT, then a professional human powered vibe coder steps in to
+
+27
+00:01:59,239 --> 00:02:03,500
+fix all the slopp. It's the perfect platform for people not talented enough to vibe code.
+
+28
+00:02:03,719 --> 00:02:07,439
+The problem though is that their approach doesn't scale, and apparently the roomful of Indian
+
+29
+00:02:07,439 --> 00:02:11,960
+programmers was doing more work than the AI. That's not a good look, but the main reason they went
+
+30
+00:02:11,960 --> 00:02:16,539
+bankrupt is that they were also committing outright fraud, allegedly, with a round-trip billing
+
+31
+00:02:16,539 --> 00:02:20,400
+scheme with one of their partners. They were invoicing for work they never did to make their
+
+32
+00:02:20,400 --> 00:02:25,699
+revenue go up. It's grower die, but unfortunately one of their creditors found out and sees $37
+
+33
+00:02:25,699 --> 00:02:30,439
+million from their bank accounts, and that let them no choice but to declare bankruptcy. It seems
+
+34
+00:02:30,439 --> 00:02:34,780
+like everywhere you go on the internet right now, you'll find Clueless Optimists is saying that 90
+
+35
+00:02:34,780 --> 00:02:39,419
+percent of white color work will be eliminated by AI within the next five years, to which the Clueless
+
+36
+00:02:39,419 --> 00:02:44,180
+pessimist respond by saying that AI is nothing more than the latest Silicon Valley pyramid scheme.
+
+37
+00:02:44,460 --> 00:02:48,120
+The truth is likely somewhere in the middle, and it's going to be fun to watch this bubble pop
+
+38
+00:02:48,120 --> 00:02:53,800
+like 2001 or explode into the singularity. Either way it's a win, but the best way to get the most out
+
+39
+00:02:53,800 --> 00:02:58,099
+of these AI tools is to learn how they work under the hood, and you can start doing that today for
+
+40
+00:02:58,099 --> 00:03:03,080
+free thanks to this video sponsor, Brilliant. There how AI WorkScore teaches you how to build your
+
+41
+00:03:03,080 --> 00:03:08,020
+own language model from scratch is starting with simple text prediction before scaling up to more
+
+42
+00:03:08,020 --> 00:03:12,979
+advanced topics like image manipulation. Each lesson is designed to be highly interactive as you
+
+43
+00:03:12,979 --> 00:03:18,020
+develop critical thinking skills through problem solving, not memorizing. But try everything brilliant
+
+44
+00:03:18,020 --> 00:03:24,180
+has to offer for free for 30 days by visiting brilliant.org slash fireship or scan the QR code on
+
+45
+00:03:24,180 --> 00:03:29,180
+screen to get 20 percent off a premium annual subscription. This has been the code report, thanks for
+
+46
+00:03:29,180 --> 00:03:31,120
+watching and I will see you in the next one.
+

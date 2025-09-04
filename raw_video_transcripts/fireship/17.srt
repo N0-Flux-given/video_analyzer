@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:05,519
+One year ago, Apple Inc attempted a hostile rebranding of a letter's AI by changing it from
+
+2
+00:00:05,519 --> 00:00:10,599
+artificial intelligence to Apple intelligence. At the time, people called it genius, but ultimately
+
+3
+00:00:10,599 --> 00:00:15,539
+the move failed when we learned that AI is just actual Indians. This year, Apple is back at it,
+
+4
+00:00:15,640 --> 00:00:20,760
+attempting another hostile rebrand by taking the gimmicky web development trend of glass morphism
+
+5
+00:00:20,760 --> 00:00:26,800
+and renaming it liquid glass, which is the new design language in iOS 26 that maximizes transparency.
+
+6
+00:00:26,800 --> 00:00:31,980
+I have to admit, it does look nice, but Microsoft also tried glass morphism on Windows Vista
+
+7
+00:00:31,980 --> 00:00:36,439
+over a decade ago, which is considered by many to be one of the worst Windows distros ever released.
+
+8
+00:00:36,799 --> 00:00:41,060
+It kind of feels like Apple just needed to do something to refresh the design system and ran out
+
+9
+00:00:41,060 --> 00:00:45,619
+of ideas, but liquid ass wasn't the only big announcement. What's far more exciting are things
+
+10
+00:00:45,619 --> 00:00:51,140
+like JavaScript, Linux containers, and Apple's new paper that discovered how AI is not all that
+
+11
+00:00:51,140 --> 00:00:55,659
+intelligent. In today's video, we'll break down everything you need to know about Apple's worldwide
+
+12
+00:00:55,659 --> 00:01:00,920
+developer conference. It is June 11, 2025, and you're watching the code report. One of the most
+
+13
+00:01:00,920 --> 00:01:05,700
+interesting announcements for developers is that Mac OS now has its own Linux containerization
+
+14
+00:01:05,700 --> 00:01:10,239
+framework optimized for Apple Silicon. Typically, if you want to run a Linux container,
+
+15
+00:01:10,579 --> 00:01:15,739
+you can install Docker desktop or podman, but now you can bypass all these tools and run containers
+
+16
+00:01:15,739 --> 00:01:20,780
+natively on your Mac. Each container runs on its own time UVM and should achieve better performance
+
+17
+00:01:20,780 --> 00:01:25,719
+than shared VMs like Docker. That's pretty cool because several years ago, I switched from Mac to
+
+18
+00:01:25,719 --> 00:01:30,319
+Windows for development because of WSL, and this feels like a move in the right direction to get
+
+19
+00:01:30,319 --> 00:01:34,620
+me back into the Apple Colt. In addition, the Swift programming language also got some updates
+
+20
+00:01:34,620 --> 00:01:39,340
+like the Java Swift project, which allows you to publish a turd by incorporating beautiful
+
+21
+00:01:39,340 --> 00:01:45,659
+Swift code into a Java project, and Swift can also safely mix with CNC++. The elephant in the room
+
+22
+00:01:45,659 --> 00:01:50,920
+is Apple Intelligence. Last year, they made it sound like they were going all in on AI, but after
+
+23
+00:01:50,920 --> 00:01:55,120
+it flopped hard, they decided to hardly mention it this year. Apple does have some new foundation
+
+24
+00:01:55,120 --> 00:01:59,819
+models that seem pretty good, but nothing special. As long as you trust, the Trustme Bro benchmarks.
+
+25
+00:02:00,319 --> 00:02:05,180
+These models will run on device mostly, but complex AI can be generated securely in their private
+
+26
+00:02:05,180 --> 00:02:09,699
+cloud, which is an oxymoron by the way. And at some point, they're expected to support Gemini
+
+27
+00:02:09,699 --> 00:02:14,939
+models in addition to open AI. What's funny though is that Apple also just released a paper titled
+
+28
+00:02:14,939 --> 00:02:19,840
+the Illusion of Thinking that talks about how large reasoning models are actually not that special.
+
+29
+00:02:20,039 --> 00:02:23,919
+They're basically just pattern matching machines that don't actually think in the way humans
+
+30
+00:02:23,919 --> 00:02:28,379
+think about thinking. I've always said that LRMs are way overhyped, but the timing of this paper
+
+31
+00:02:28,379 --> 00:02:32,860
+is sus because Apple is way behind in the AI race at this point. The thing most people are talking
+
+32
+00:02:32,860 --> 00:02:37,639
+about though is liquid glass. Some people love it, but most seem underwhelmed. It's just an
+
+33
+00:02:37,639 --> 00:02:42,280
+incremental change, but if we keep going in this direction, eventually the entire UI will be invisible,
+
+34
+00:02:42,280 --> 00:02:46,960
+and maybe that was the plan all along as man prepares to merge with machine. Only time will tell,
+
+35
+00:02:47,139 --> 00:02:52,360
+but if you need some UI inspiration, the best place to get it is on mobin.com, the sponsor of
+
+36
+00:02:52,360 --> 00:02:56,939
+today's video. I've been using mobin for over five years now, and what they do is provide highly
+
+37
+00:02:56,939 --> 00:03:01,900
+detailed breakdowns of every screen and popular applications. As a developer, you can steal or I
+
+38
+00:03:01,900 --> 00:03:06,819
+mean get inspired by these patterns and implement them in your own applications. You can analyze entire
+
+39
+00:03:06,819 --> 00:03:12,379
+user journeys, UI elements and screens from over a thousand highly successful apps, and you can even
+
+40
+00:03:12,379 --> 00:03:17,460
+bring them directly into Figma to kickstart your design process, give mobin.com a try for free
+
+41
+00:03:17,460 --> 00:03:22,039
+right now with the link below. This has been the code report, thanks for watching, and I will see you
+
+42
+00:03:22,039 --> 00:03:22,580
+in the next one.
+

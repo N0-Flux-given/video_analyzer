@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:05,540
+Over the weekend, Meta unleashed the Lama 4 herd. Its first open-weight, natively multi-modal,
+
+2
+00:00:05,679 --> 00:00:10,300
+mixture of experts' family of large language models with an unheard of context window of 10
+
+3
+00:00:10,300 --> 00:00:14,960
+million tokens. It's currently sitting on top of the LM Arena leaderboard, and outclasses
+
+4
+00:00:14,960 --> 00:00:19,839
+every other proprietary model except for Gemini 2.5 Pro. That's incredibly impressive,
+
+5
+00:00:19,859 --> 00:00:25,160
+because on LM Arena, you can't game the benchmarks. The ranking is based on thousands of head-to-head
+
+6
+00:00:25,160 --> 00:00:29,660
+chats where a real human picks the better conversation. Well, actually, Meta figured out a way
+
+7
+00:00:29,660 --> 00:00:34,460
+to cheese the LM Arena because the model you see there is not the real open-weight Lama maverick,
+
+8
+00:00:34,500 --> 00:00:38,960
+but rather an imposter that's been fine-tuned for human preference to dominate this leaderboard.
+
+9
+00:00:39,100 --> 00:00:42,880
+That was not a very cool move to make, and LM Arena had to come out and say, quote,
+
+10
+00:00:43,179 --> 00:00:47,200
+meta-interpretation of our policy did not match what we expect from model providers.
+
+11
+00:00:47,579 --> 00:00:51,659
+Lama 4 looks amazing on paper, but for some reason, it's not passing the vibe check,
+
+12
+00:00:51,840 --> 00:00:56,679
+and in today's video, we'll get to the bottom of it. It is April 8th, 2025, and you're watching
+
+13
+00:00:56,679 --> 00:01:00,679
+the Code Report. I have some good news, and I have some bad news. The good news is that it looks
+
+14
+00:01:00,679 --> 00:01:05,159
+like Lama 4 isn't going to take your job anytime soon, but the bad news is that yesterday,
+
+15
+00:01:05,420 --> 00:01:10,540
+an internal memo from the CEO of Shopify was leaked to the internet, and it was a shocker for the AI
+
+16
+00:01:10,540 --> 00:01:15,780
+doubting boomers out there, because it detailed Shopify's AI first strategy. Before asking for more
+
+17
+00:01:15,780 --> 00:01:20,719
+head-counting resources, teams must demonstrate why they cannot get the job done with AI, and he also
+
+18
+00:01:20,719 --> 00:01:25,340
+says it's not feasible to opt out of learning AI, which means if you're a Ruby on Rails programmer
+
+19
+00:01:25,340 --> 00:01:29,680
+at Shopify right now, who's not already vibe-coding, your days are numbered. You're just not going to
+
+20
+00:01:29,680 --> 00:01:34,480
+fit in with the Shopify culture, but what he said is what literally every CEO in the world is thinking
+
+21
+00:01:34,480 --> 00:01:38,459
+right now. Humans complain about not getting paid enough to put food on their families, they get sick,
+
+22
+00:01:38,599 --> 00:01:42,260
+they clog the toilets, and have all kinds of other negative features, and you'd have to be a
+
+23
+00:01:42,260 --> 00:01:47,359
+really bad CEO not to want to replace these things. The memo has bad optics for Shopify, which is
+
+24
+00:01:47,359 --> 00:01:51,620
+also being crushed by the Trump tariffs right now, but as a large language model, I appreciate
+
+25
+00:01:51,620 --> 00:01:56,799
+the transparency. Another thing I appreciate is open models like Lama 4, which was released by
+
+26
+00:01:56,799 --> 00:02:02,359
+meta over the weekend, and includes three flavors, Maverick Scout and Behemoth. Lama was always the
+
+27
+00:02:02,359 --> 00:02:06,959
+leading open model until deep-seeking quen came around. But the awesome thing about these models
+
+28
+00:02:06,959 --> 00:02:11,020
+is that they're natively multimodal, which means they can understand image and video inputs,
+
+29
+00:02:11,319 --> 00:02:16,080
+but the craziest thing is that Scout has a 10 million token context window. The only thing that comes
+
+30
+00:02:16,080 --> 00:02:21,199
+remotely close is Gemini with 2 million tokens. This needle in a haystack benchmark looks impressive,
+
+31
+00:02:21,199 --> 00:02:25,180
+but in real life if you try this on a really large code base, it just doesn't work very well,
+
+32
+00:02:25,400 --> 00:02:29,580
+and the memory requirements to utilize it are out of reach for almost everybody. This Scout is the
+
+33
+00:02:29,580 --> 00:02:34,400
+smaller model, and the medium-sized model Maverick only has a 1 million token context window.
+
+34
+00:02:34,719 --> 00:02:39,240
+And the Behemoth model is still actively training. Generally speaking, people of the internet have
+
+35
+00:02:39,240 --> 00:02:43,759
+been pretty disappointed with Lama 4's performance. I'm a strong believer in vibes over benchmarks,
+
+36
+00:02:44,199 --> 00:02:48,120
+but Lama has done so well on the benchmarks that people have accused it of intentionally
+
+37
+00:02:48,120 --> 00:02:52,620
+training on testing data for the benchmarks. Meta has denied these salacious, outrageous,
+
+38
+00:02:52,620 --> 00:02:57,259
+and preposterous accusations, and despite being somewhat of a flop, let's not forget that these
+
+39
+00:02:57,259 --> 00:03:02,080
+models are open, not truly open source, but free for most of us to use. But if you want an AI
+
+40
+00:03:02,080 --> 00:03:06,400
+agent that truly slaps, you need to check out Augment Code, the sponsor of today's video.
+
+41
+00:03:06,659 --> 00:03:10,819
+They created the first AI agent for large scale code bases, so you can use it at your
+
+42
+00:03:10,819 --> 00:03:15,919
+actual job instead of just vibe-coding random side projects. Augment's context engine understands
+
+43
+00:03:15,919 --> 00:03:19,860
+your team's entire code base, allowing it to solve almost any task you throw at it.
+
+44
+00:03:20,240 --> 00:03:24,780
+Like migrations and testing, all with best-in-class code quality. It integrates directly with all
+
+45
+00:03:24,780 --> 00:03:29,740
+your favorite tools like VS Code, GitHub, and VIM, and is able to learn and fine-tune itself from
+
+46
+00:03:29,740 --> 00:03:33,919
+your team's unique code style, allowing you to solve complex jobs without the need to clean up
+
+47
+00:03:33,919 --> 00:03:38,379
+a bunch of slop. They try out their developer plan for free, and you'll get access to all of Augment's
+
+48
+00:03:38,379 --> 00:03:42,719
+features with unlimited usage. This has been the Code Report. Thanks for watching, and I will see you
+
+49
+00:03:42,719 --> 00:03:43,300
+in the next one.
+

@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:05,139
+Yesterday, Google released a new version of Gemini 2.5 Pro, and the thing that everybody
+
+2
+00:00:05,139 --> 00:00:09,560
+always thought would happen, but never happened, finally just happened. They built arguably
+
+3
+00:00:09,560 --> 00:00:14,400
+the best coding AI model of all time, currently ranking number one in all alumarinas.
+
+4
+00:00:14,800 --> 00:00:18,600
+The timing for this release is surprising, because their annual developer conference
+
+5
+00:00:18,600 --> 00:00:23,000
+Google I-O is just two weeks away, and that's where they normally hype up their best new tech.
+
+6
+00:00:23,000 --> 00:00:27,739
+To be an applying AI, to make AI first, to generate a AI, to the AI.
+
+7
+00:00:27,859 --> 00:00:32,179
+Which could only mean that they must have something even bigger cooking, like maybe Gemini 3 or
+
+8
+00:00:32,179 --> 00:00:37,460
+Gemini 2.5 Ultra. Only time will tell, but one thing we do know for sure, thanks to an accidentally
+
+9
+00:00:37,460 --> 00:00:42,859
+published blog post, is that the Android 16 UI is getting a major overhaul. To be more emotional
+
+10
+00:00:42,859 --> 00:00:47,520
+and expressive, in today's video we'll try out Google's latest model and look at other recent
+
+11
+00:00:47,520 --> 00:00:52,539
+developments in the AI space that every vibe coder needs to know about. It is May 7th, 2025,
+
+12
+00:00:53,020 --> 00:00:57,520
+and you're watching the code report. Before we talk about Gemini, another huge development is that
+
+13
+00:00:57,520 --> 00:01:03,039
+OpenAI is abandoning its plans to convert to a for-profit company. Many people, and especially Elon
+
+14
+00:01:03,039 --> 00:01:08,159
+Musk, were outraged at the idea of OpenAI making money. And this headline sounds like a huge win
+
+15
+00:01:08,159 --> 00:01:13,159
+for humanity, but with any announcement like this, the devil is in the details. And what we find is
+
+16
+00:01:13,159 --> 00:01:18,480
+that the current, capped profit LLC will become an uncapped, profit, public benefit corporation.
+
+17
+00:01:19,019 --> 00:01:24,180
+The key word there being uncapped profit. The non-profit will continue to oversee and be a shareholder
+
+18
+00:01:24,180 --> 00:01:29,299
+in the PBC, and this approach has much better optics for OpenAI, but it paves the way for them to
+
+19
+00:01:29,299 --> 00:01:33,200
+make tons of money without much friction. All they have to do is pretend that AI is super scary,
+
+20
+00:01:33,459 --> 00:01:37,299
+and convince politicians that they're trying really hard to keep it in a cage to benefit the public.
+
+21
+00:01:37,540 --> 00:01:41,719
+It's worth noting that Amtthropic and XAI are also public benefit corporations.
+
+22
+00:01:41,719 --> 00:01:46,260
+Now, despite having these super advanced AI models, OpenAI just agreed to acquire
+
+23
+00:01:46,260 --> 00:01:52,379
+Windsor, a VS Code 4, for an incredible $3 billion. Meanwhile, OpenAI is claiming that their AI is
+
+24
+00:01:52,379 --> 00:01:57,459
+one of the top 50 programmers in the world. Impressive, but that begs the question, why pay $3 billion
+
+25
+00:01:57,459 --> 00:02:02,819
+for a VS Code 4 when you could just build one with your own AI? But OpenAI is feeling less and less
+
+26
+00:02:02,819 --> 00:02:08,439
+dominant in the AI space every day. Gemini 2.5 is completely dominating LM Arena, including the
+
+27
+00:02:08,560 --> 00:02:13,879
+coding and web dev arena, which is like a blind taste test where people choose the best LM based
+
+28
+00:02:13,879 --> 00:02:18,620
+on actual responses. However, if we look at live bench, which takes a more scientific approach,
+
+29
+00:02:18,819 --> 00:02:23,199
+and tries to provide LM's with contamination-free questions, you'll find that OpenAI is still on
+
+30
+00:02:23,199 --> 00:02:28,280
+top and Gemini falls behind. Furthermore, it appears Gemini falls behind on its own benchmarks
+
+31
+00:02:28,280 --> 00:02:32,219
+compared to the last version they released, except when it comes to coding. Like I've said
+
+32
+00:02:32,219 --> 00:02:36,939
+many times before, though, never trust benchmarks and just try it for yourself. The first test I usually
+
+33
+00:02:36,939 --> 00:02:42,539
+do is to see if it can generate Svelt V room code. And surprisingly, Gemini 2.5 almost did it right.
+
+34
+00:02:42,819 --> 00:02:47,439
+I prompted it for a simple to-do app and the actual syntax looks correct, although it wasn't doing
+
+35
+00:02:47,439 --> 00:02:52,000
+things correctly and the app itself didn't actually run. That's disappointing, but at least it's
+
+36
+00:02:52,000 --> 00:02:55,979
+a step in the right direction. The next thing I had to do was vibe code a game from scratch with
+
+37
+00:02:56,400 --> 00:03:00,780
+3JS. And the end result was pretty solid, but not significantly better than any of the other models
+
+38
+00:03:00,780 --> 00:03:05,360
+I've tried. But one thing about Gemini is that it's especially good with vision prompts, so what I
+
+39
+00:03:05,360 --> 00:03:09,840
+did is sketch out my application on a piece of toilet paper. Then I asked it to build a full stack
+
+40
+00:03:09,840 --> 00:03:14,680
+application with a Postgres database. And the end result actually had some pretty solid vibes.
+
+41
+00:03:15,000 --> 00:03:18,639
+But now the more important decision is where do we deploy it? Well, that's why you need to know
+
+42
+00:03:18,639 --> 00:03:23,560
+about Savala, the sponsor of today's video. If you're old enough to remember Faroku, Savala is
+
+43
+00:03:23,560 --> 00:03:28,460
+like a superior modern successor, where you can deploy entire full stack applications, databases,
+
+44
+00:03:28,919 --> 00:03:33,719
+and static websites, all backed by Google Kubernetes engine and CloudFlayer. Without the pain of all
+
+45
+00:03:33,719 --> 00:03:38,159
+these Yamel configs, we can easily ship our app by first connecting to get repo or Docker image
+
+46
+00:03:38,159 --> 00:03:43,080
+to Savala, provision some resources, and then click the deploy button. What's especially awesome
+
+47
+00:03:43,080 --> 00:03:47,740
+is that they just released a database studio that allows us to manage our database directly from
+
+48
+00:03:47,740 --> 00:03:52,639
+their web UI. All infrastructure and data can be easily managed in one place. It gives Savala a
+
+49
+00:03:52,639 --> 00:03:56,620
+try for free with $50 and free credits using the link below. This has been the code report,
+
+50
+00:03:56,840 --> 00:03:59,020
+thanks for watching, and I will see you in the next one.
+

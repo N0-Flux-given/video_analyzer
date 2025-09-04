@@ -1,0 +1,268 @@
+1
+00:00:00,000 --> 00:00:05,540
+Yesterday, OpenAI released two new reasoning models, O3 and O4 Mini, and people claim that
+
+2
+00:00:05,540 --> 00:00:09,699
+they're at or above genius level. That means room temperature superconducting hoverboard should
+
+3
+00:00:09,699 --> 00:00:13,919
+be right around the corner, but these claims of AI genius feel like deja vu all over again.
+
+4
+00:00:14,039 --> 00:00:15,939
+In San Francisco, there's an old saying that goes,
+
+5
+00:00:16,100 --> 00:00:20,899
+Fulmi wants shame on you, Fulmi O4 times shame on me, but maybe this time it's the real deal.
+
+6
+00:00:21,179 --> 00:00:25,199
+One thing's for sure though, OpenAI is shipping like crazy. This comes just days after they
+
+7
+00:00:25,199 --> 00:00:31,699
+released GPT 4.1 and just weeks after 4.0 image gen and GPT 4.5. Hopefully they can use the
+
+8
+00:00:31,699 --> 00:00:36,799
+genius of O4 to not create such confusingly stupid names. Remember today we're talking about O4,
+
+9
+00:00:37,020 --> 00:00:42,299
+not 4.0, so try to keep up. It is April 17th, 2025 and you're watching the code report.
+
+10
+00:00:42,539 --> 00:00:46,240
+These new reasoning models are supposed to be really super good at writing code, but you guys
+
+11
+00:00:46,240 --> 00:00:49,799
+really need to stop posting these comments on their videos. Because this guy in a $2 million
+
+12
+00:00:49,799 --> 00:00:54,280
+car has been following me around and I have a bad feeling about it. But the big news is that OpenAI
+
+13
+00:00:54,280 --> 00:00:59,399
+also released an open source CLI tool to go along with it called Codex. It's basically the
+
+14
+00:00:59,399 --> 00:01:03,979
+exact same thing as Claude code that can write, execute and analyze code directly from your
+
+15
+00:01:03,979 --> 00:01:08,780
+terminal or IDE. In today's video we'll try out Codex, but I already pay thousands of dollars
+
+16
+00:01:08,780 --> 00:01:13,859
+a month to vibe code with lovable, windsurf, cursor, firebase studio, Claude code, copilot,
+
+17
+00:01:14,079 --> 00:01:18,579
+devon, augment, and bold. Yet my code quality is worse than ever. I know it's probably just a skill
+
+18
+00:01:18,579 --> 00:01:22,739
+issue, but one thing's for sure, there's a massive arms race going on right now in Silicon
+
+19
+00:01:22,739 --> 00:01:27,599
+Valley to capture the hard minds and wallets of software engineers, especially the smart lazy
+
+20
+00:01:27,599 --> 00:01:31,579
+ones who don't want to write code. The global economy might be on the verge of collapse, but the
+
+21
+00:01:31,579 --> 00:01:35,260
+code shovel business is booming right now. In fact, there's a rumor that OpenAI isn't
+
+22
+00:01:35,260 --> 00:01:40,599
+talks to buy windsurf for $3 billion. And windsurf is just a VS Code fork that adds a few AI
+
+23
+00:01:40,599 --> 00:01:44,819
+bells and whistles. I'm starting to regret investing all my time working on horse tender when I
+
+24
+00:01:44,819 --> 00:01:49,079
+should have just forked VS Code and put a price tag on it. Like cursor, another VS Code fork is
+
+25
+00:01:49,079 --> 00:01:54,079
+doing 100 million in annual revenue. However, VS Code is built by Microsoft, and Microsoft is the
+
+26
+00:01:54,079 --> 00:01:58,620
+biggest player in the developer tooling race. I believe their goal is to embrace extend and extinguish
+
+27
+00:01:58,620 --> 00:02:03,019
+coders. I mean that in a good way, of course, and they just released a massive upgrade to copilot
+
+28
+00:02:03,019 --> 00:02:07,819
+who called Agent Mode that many people are calling the cursor or windsurf killer. Like OpenAI
+
+29
+00:02:07,819 --> 00:02:12,520
+Codex and Claude code, it can create files and run commands and integrates model context protocol
+
+30
+00:02:12,520 --> 00:02:17,800
+servers. That's pretty cool, but at the moment, many people regard Gemini 2.5 as the best programming
+
+31
+00:02:17,800 --> 00:02:23,120
+model out there. People will bow to it. And I'd say I have to agree. Last week, Google released Firebase
+
+32
+00:02:23,120 --> 00:02:28,500
+Studio, which was formerly known as Project IDX, and it's a browser-based fork of VS Code that's
+
+33
+00:02:28,500 --> 00:02:33,379
+hosted by Google. Not only does it generate code with Gemini 2.5, but it can also host and deploy
+
+34
+00:02:33,379 --> 00:02:37,460
+that code automatically. The tooling situation for developers right now is more chaotic than I've
+
+35
+00:02:37,460 --> 00:02:42,439
+ever seen in my life, but now let's try out O4 Mini and OpenAI Codex to find out if it's truly
+
+36
+00:02:42,439 --> 00:02:47,300
+a genius. To use it, you install it with NPM and then set an OpenAI API key as an environment
+
+37
+00:02:47,300 --> 00:02:51,000
+variable. From there, you can run the Codex command and then give it a prompt. I'll go ahead and
+
+38
+00:02:51,000 --> 00:02:54,840
+ask it to build something simple like a YouTube clone. Apparently, those requirements were not
+
+39
+00:02:54,840 --> 00:02:59,159
+clear enough, so it asked me to clarify. As a developer, I feel it's pain after getting years of
+
+40
+00:02:59,159 --> 00:03:02,900
+half-assed requirements from clients. From there, it took a really long time to think, and then
+
+41
+00:03:02,900 --> 00:03:07,240
+asked me to confirm a bunch of different actions. The end result was a bunch of empty directories,
+
+42
+00:03:07,379 --> 00:03:10,639
+although I could see the code that it was trying to write in the terminal. The likely explanation
+
+43
+00:03:10,639 --> 00:03:15,280
+is because I'm a gigachad using Windows for development, but if you're a 0.10x developer on MacOS,
+
+44
+00:03:15,520 --> 00:03:19,860
+things should go a lot smoother. I asked it to write Svelt 5 code with Roons, and still in 2025,
+
+45
+00:03:19,979 --> 00:03:25,219
+it failed to do so. Now, as a control, I also ran the same prompt in Cloud Code and Firebase Studio.
+
+46
+00:03:25,500 --> 00:03:30,020
+Cloud Code also took an extremely long time, but it did figure out how to run the commands on Windows,
+
+47
+00:03:30,360 --> 00:03:34,400
+but like all the other AM models, it can't seem to figure out how to write Svelt 5 Roon code.
+
+48
+00:03:34,580 --> 00:03:38,780
+It tried by using the dollar sign, but that ultimately resulted in an error and a non-working app.
+
+49
+00:03:38,780 --> 00:03:42,599
+Let's see if Firebase Studio can generate a YouTube clone any better. The first thing you'll
+
+50
+00:03:42,599 --> 00:03:47,819
+notice is that Firebase Studio is at least 10x faster. However, when I asked it to generate Svelt 5
+
+51
+00:03:47,819 --> 00:03:52,560
+code, it completely ignored me and wrote everything in NextJS. That's disappointing, but like I've said
+
+52
+00:03:52,560 --> 00:03:56,199
+before, if you want to be a good vibe-coder, you should probably just use the most popular
+
+53
+00:03:56,199 --> 00:04:00,879
+technologies like React. The thing about Firebase Studio, though, is that it's way easier to work with AI
+
+54
+00:04:00,879 --> 00:04:05,360
+when it's integrated directly into an IDE and environment like this. The final verdict, though,
+
+55
+00:04:05,360 --> 00:04:09,520
+is that they all kind of suck in their own special ways. Don't fall for OpenAI's genius hype,
+
+56
+00:04:09,780 --> 00:04:13,780
+but also don't fall for the AI doomsday who say these tools are worthless. Life is electric,
+
+57
+00:04:13,960 --> 00:04:17,600
+and it's the greatest time ever to be a developer. Get out there and ship as much AI Slop as you
+
+58
+00:04:17,600 --> 00:04:21,379
+possibly can, like you're on a mission from the gods. But if you try to build a YouTube clone like
+
+59
+00:04:21,379 --> 00:04:25,379
+me with streaming video, you're going to want to know about Mucks, the sponsor of today's video.
+
+60
+00:04:25,620 --> 00:04:29,279
+If you've ever had to integrate video into an app, you know how easy it is to get started,
+
+61
+00:04:29,519 --> 00:04:34,120
+but how difficult it is to get right. This is where API first video infrastructure from Mucks can
+
+62
+00:04:34,120 --> 00:04:38,680
+help out. Not only will it host and encode your videos for adaptive bitrate streaming, but also
+
+63
+00:04:38,680 --> 00:04:43,360
+provides real-time analytics, automatic thumbnail generation, and even live streaming all through an
+
+64
+00:04:43,360 --> 00:04:47,819
+API that's highly customizable. It can handle video streaming at your startup with zero users,
+
+65
+00:04:48,100 --> 00:04:52,279
+but scales up for big companies like Substack, Patreon, and HubSpot. If you're a developer looking
+
+66
+00:04:52,279 --> 00:04:57,100
+to build awesome video features, try it out for free right now at mucks.com slash fireship.
+
+67
+00:04:57,300 --> 00:05:00,560
+This has been the code report. Thanks for watching, and I will see you in the next one.
+

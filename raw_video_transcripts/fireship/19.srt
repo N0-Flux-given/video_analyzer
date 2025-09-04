@@ -1,0 +1,208 @@
+1
+00:00:00,000 --> 00:00:03,879
+Yesterday, one of the most scandalous lawsuits in tech was revealed to the world.
+
+2
+00:00:04,080 --> 00:00:08,880
+An AI hardware company named IO is suing another AI hardware company named IO.
+
+3
+00:00:09,160 --> 00:00:13,080
+The former is a Google Back startup you've never heard of, while the latter is Johnny
+
+4
+00:00:13,080 --> 00:00:18,699
+Ives mysterious company that was acquired last week by OpenAI for a staggering $6.5 billion.
+
+5
+00:00:19,440 --> 00:00:24,120
+On the surface, it looks like a battle between IO and IO, but in reality, it's a proxy war
+
+6
+00:00:24,120 --> 00:00:25,559
+between OpenAI and Google.
+
+7
+00:00:25,559 --> 00:00:28,920
+If you're confused already, it all refers to the original company as IO,
+
+8
+00:00:29,280 --> 00:00:32,619
+and the company accused of stealing their name in IP as Altman IO.
+
+9
+00:00:32,979 --> 00:00:36,960
+You see, Sam Altman thought he was playing 70 chess by throwing helicopter money
+
+10
+00:00:36,960 --> 00:00:41,600
+at the legendary Sir Johnny Ives, a guy who is considered one of the most powerful people at Apple
+
+11
+00:00:41,600 --> 00:00:45,799
+who gave products like the iPod, Iphone, and MacBook their visual identity.
+
+12
+00:00:46,119 --> 00:00:50,560
+But this opening move just put the brand's future in jeopardy because now Altman IO is being
+
+13
+00:00:50,560 --> 00:00:55,079
+sued for trademark infringement, and if we're to believe this startup, the allegations are absolutely
+
+14
+00:00:55,079 --> 00:00:59,939
+unhinged. In today's video, we'll break it all down and take a look at the future AI hardware
+
+15
+00:00:59,939 --> 00:01:05,040
+that nobody asked for. It is June 24, 2025, and you're watching the code report.
+
+16
+00:01:05,280 --> 00:01:09,900
+If you've been following the AI race, you may know that Sam Altman made a massive deal to acquire
+
+17
+00:01:09,900 --> 00:01:14,879
+and hire Johnny Ives before an ungodly amount of money. As of right now, the deal is still on,
+
+18
+00:01:15,000 --> 00:01:18,599
+and Johnny will still get that bag. But before even revealing an initial product,
+
+19
+00:01:18,859 --> 00:01:22,959
+the brand might need to pivot because it's being sued by a Google Back startup called IO.
+
+20
+00:01:22,959 --> 00:01:28,079
+They've got 62 million in funding, a registered trademark, and 20,000 units ready to ship.
+
+21
+00:01:28,459 --> 00:01:33,439
+But what even is it? On the website, it's a quote, revolutionary new computer that doesn't need a
+
+22
+00:01:33,439 --> 00:01:38,340
+screen. You can run apps by simply speaking to it. Now, I don't mean to be a downer, but so far,
+
+23
+00:01:38,500 --> 00:01:42,719
+it seems like people don't want devices like this. Rabbit and Humane Pinn already tried similar
+
+24
+00:01:42,719 --> 00:01:47,500
+concepts and failed miserably. Maybe this startup will get it right, but enter Sam Altman and
+
+25
+00:01:47,500 --> 00:01:52,540
+Johnny Ives, who just announced their collaboration to build mysterious voice controlled AI devices.
+
+26
+00:01:52,540 --> 00:01:57,400
+They also called their product IO, and we don't know anything about it, but we can infer some
+
+27
+00:01:57,400 --> 00:02:01,760
+additional details about it from the lawsuit, and this is where things get wild. In 2022,
+
+28
+00:02:02,219 --> 00:02:06,620
+Sam Altman's investment fund met with IO. It got their tech demos, but said no thank you.
+
+29
+00:02:06,920 --> 00:02:11,699
+In addition, around the same time, Johnny Ives company also met with IO and saw their tech demos
+
+30
+00:02:11,699 --> 00:02:16,139
+and said no thank you. Behind the scenes, though, Altman and Ives were keeping tabs on IO,
+
+31
+00:02:16,460 --> 00:02:21,560
+while allegedly buying their products and asking for design files. Then a few years later in 2025,
+
+32
+00:02:21,560 --> 00:02:26,319
+OpenAI executive is met with IO. Once again, under the pretense of making an investment,
+
+33
+00:02:26,580 --> 00:02:30,520
+they were shown the tech, the hardware, and the functionality, but once again said no thank you,
+
+34
+00:02:30,680 --> 00:02:34,780
+were building our own slot. Then just weeks later, OpenAI released this cringe video,
+
+35
+00:02:35,020 --> 00:02:39,580
+vaguely hinting at some future hardware product. What's crazy, though, is that Altman not only
+
+36
+00:02:39,580 --> 00:02:43,979
+refused to make an investment in this startup, but incredibly he threatened that IO would sue IO to
+
+37
+00:02:43,979 --> 00:02:48,979
+force IO to stop using the name IO. These allegations are ruthless, salacious, and outrageous,
+
+38
+00:02:48,979 --> 00:02:53,659
+but that's what we've come to expect from Sam Altman. Unfortunately, it also puts a dark stain
+
+39
+00:02:53,659 --> 00:02:58,039
+on the clean reputation of Johnny Ives, who allegedly participated in this devious plot.
+
+40
+00:02:58,360 --> 00:03:01,860
+Only time will tell if they get to keep the name IO, but may the best hardware win.
+
+41
+00:03:02,180 --> 00:03:06,120
+When it comes to software development, though, we already have amazing tools, like Warp,
+
+42
+00:03:06,259 --> 00:03:10,620
+the sponsor of today's video. You probably know Warp for being the most intelligent terminal in the
+
+43
+00:03:10,620 --> 00:03:15,719
+game. And with their brand new 2.0 release, it's starting to rival the biggest AI dev tools out there.
+
+44
+00:03:15,719 --> 00:03:20,560
+You can now think of Warp as an agentic development environment. It comes with a state-of-the-art
+
+45
+00:03:20,560 --> 00:03:25,680
+coding agent that can execute jobs autonomously, a code editor where you can write code alongside
+
+46
+00:03:25,680 --> 00:03:30,539
+your agents, and an intelligent terminal, all in one. This means you can just tell Warp to build a
+
+47
+00:03:30,539 --> 00:03:35,659
+specific feature or fix a bug, and it can do it all with multiple agents in parallel. It scored
+
+48
+00:03:35,659 --> 00:03:42,000
+an impressive 71% on the SWE bench and 52% on terminal bench, which makes it one of the best
+
+49
+00:03:42,000 --> 00:03:46,539
+among agent-based dev tools. Warp is free to use, but you can get two months free on their
+
+50
+00:03:46,539 --> 00:03:50,879
+pro plan and a bunch of AI credits if you're one of the first 3,000 people to use the code
+
+51
+00:03:50,879 --> 00:03:55,280
+fireship at checkout. This has been the code report. Thanks for watching, and I will see you in the
+
+52
+00:03:55,280 --> 00:03:55,719
+next one.
+

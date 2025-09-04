@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:04,719
+Last week, somebody pushed some bad code into production and it broke a large chunk of the internet.
+
+2
+00:00:04,940 --> 00:00:10,099
+The snapchat, Spotify, and Discord all started spurging out, while Cloudflare's workers KV
+
+3
+00:00:10,099 --> 00:00:15,339
+service was also hit, which resulted in nearly 100% error rates for over two hours and created
+
+4
+00:00:15,339 --> 00:00:20,059
+a domino effect that took down websites and services across the internet. The person to blame for
+
+5
+00:00:20,059 --> 00:00:24,940
+this bad code is none other than Google Cloud Platform, which runs out the servers to many of your
+
+6
+00:00:24,940 --> 00:00:29,920
+favorite apps. They have deeply apologized for the screw up, but it just goes to show how much power
+
+7
+00:00:29,920 --> 00:00:33,960
+Big Cloud has over the internet infrastructure that we take for granted. In today's video,
+
+8
+00:00:34,200 --> 00:00:38,460
+we'll find out exactly how this massive outage happened from a software engineering perspective.
+
+9
+00:00:38,840 --> 00:00:44,320
+It is June 16, 2025, and you're watching the code report. Google Cloud not only broke the internet,
+
+10
+00:00:44,619 --> 00:00:50,539
+but it also broke itself. Gmail, Google Calendar, Drive, Meet, and many other services went down.
+
+11
+00:00:50,880 --> 00:00:54,719
+An outage of this magnitude can cost companies millions upon millions of dollars,
+
+12
+00:00:55,020 --> 00:00:59,100
+but when you rent out servers on any Big Cloud provider, they provide you with a contract
+
+13
+00:00:59,100 --> 00:01:05,480
+service level agreement, and it typically guarantees monthly uptime of 99.99% or greater.
+
+14
+00:01:05,719 --> 00:01:09,640
+When things go down this bad, the Cloud provider is in violation of this contract,
+
+15
+00:01:09,900 --> 00:01:15,500
+and you may be entitled to financial compensation, in the form of SLA credits, which is basically
+
+16
+00:01:15,500 --> 00:01:19,819
+Google refunding these companies for sucking at its job. That might cost Google a few million,
+
+17
+00:01:20,099 --> 00:01:23,659
+but this outage does far more damage to their reputation as a Cloud provider.
+
+18
+00:01:23,939 --> 00:01:28,299
+In terms of market share, Google has been in third place for years behind Azure and AWS,
+
+19
+00:01:28,299 --> 00:01:33,079
+and this recent incident is not going to do them any favors. But how did the disaster actually
+
+20
+00:01:33,079 --> 00:01:38,099
+happen from a programming perspective? Well, Sundar recently said that AI is now writing well
+
+21
+00:01:38,099 --> 00:01:42,640
+over 30% of Google's code, and so many people immediately jumped to blame Gemini,
+
+22
+00:01:42,859 --> 00:01:46,500
+but I can neither confirm nor deny that this was yet another vibe coding fail.
+
+23
+00:01:46,780 --> 00:01:50,519
+It's more likely that this code was written by a human hand because it controls an extremely
+
+24
+00:01:50,519 --> 00:01:55,319
+important part of Google Cloud. Basically, when customers make API requests to Google Cloud,
+
+25
+00:01:55,319 --> 00:02:00,459
+they get routed to an API management service that verifies that the API request is authorized.
+
+26
+00:02:00,780 --> 00:02:05,420
+This service also contains a data store to read quota and policy information that can be replicated
+
+27
+00:02:05,420 --> 00:02:09,780
+very quickly around the world. The service itself is deployed regionally, and Google currently
+
+28
+00:02:09,780 --> 00:02:14,520
+has data centers in 42 regions across the flat stationery plain we live upon. Normally,
+
+29
+00:02:14,699 --> 00:02:20,180
+everything works great, but back on May 29, 2025, an additional quota policy check was added,
+
+30
+00:02:20,360 --> 00:02:24,840
+which was supposed to be a new feature, but turned into a massive bug. The code path for this feature
+
+31
+00:02:24,840 --> 00:02:29,159
+was never actually executed because it required a policy change that would trigger the code,
+
+32
+00:02:29,379 --> 00:02:32,960
+but apparently that trigger was never pulled during the staging phase, so it looked like everything
+
+33
+00:02:32,960 --> 00:02:37,120
+was all good. That sounds a lot like the CrowdStrike disaster last year, and in this case,
+
+34
+00:02:37,280 --> 00:02:41,379
+the code path didn't have proper error handling, which would result in a null pointer that would
+
+35
+00:02:41,379 --> 00:02:46,479
+cause the binary to crash. I was just talking about bad code with null pointers in my cvd last week,
+
+36
+00:02:46,620 --> 00:02:51,439
+but in any case, the bug lay their dormant until June 12th when a policy change was inserted,
+
+37
+00:02:51,439 --> 00:02:56,419
+then replicated globally within seconds, and that caused the API management binary to go into a
+
+38
+00:02:56,419 --> 00:03:01,199
+crash loop, leading to mass panic and chaos in the tech world. Luckily, Google developers did
+
+39
+00:03:01,199 --> 00:03:05,400
+install a big red button to roll things back, but it took about 40 minutes to get that rollback
+
+40
+00:03:05,400 --> 00:03:09,800
+started, and about four hours to fully stabilize back to normal. It was a day that will live in
+
+41
+00:03:09,800 --> 00:03:14,400
+infamy, but you can start building better products today, thanks to this video sponsor, Posthog.
+
+42
+00:03:14,719 --> 00:03:19,020
+You probably know Posthog as an all-in-one platform for building better products. What you
+
+43
+00:03:19,020 --> 00:03:23,500
+probably don't know is that Posthog just changed the game again with the release of Macs.
+
+44
+00:03:23,599 --> 00:03:28,039
+Their AI-powered product analyst and assistant that lives directly inside your posthog app.
+
+45
+00:03:28,219 --> 00:03:31,900
+It's deeply connected to your data, which allows you to do all sorts of cool things,
+
+46
+00:03:32,099 --> 00:03:37,439
+like research answers, ask product questions with natural language, generate data visualizations,
+
+47
+00:03:37,919 --> 00:03:42,400
+it gets stuff done on your behalf in the posthog UI, and answer questions about the documentation.
+
+48
+00:03:42,939 --> 00:03:47,300
+And that's combined with everything else Posthog has to offer, like analytics, feature flags,
+
+49
+00:03:47,300 --> 00:03:51,740
+session replays, and much, much more. Give Posthog a shot today with the link below.
+
+50
+00:03:52,020 --> 00:03:55,419
+This has been the code report, thanks for watching, and I will see you in the next one.
+

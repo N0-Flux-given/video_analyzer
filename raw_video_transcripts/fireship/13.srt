@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:03,459
+Right now, there's an unimaginable war unfolding before our eyes.
+
+2
+00:00:03,680 --> 00:00:07,799
+I'm not talking about a ran versus Israel, but rather the superintelligence talent war
+
+3
+00:00:07,799 --> 00:00:11,380
+happening in Silicon Valley. You see, Meta just made something very clear.
+
+4
+00:00:11,640 --> 00:00:14,779
+The only thing that really matters in tech right now is winning the AI race.
+
+5
+00:00:15,099 --> 00:00:20,100
+And by that, I mean achieving one of the nebulous goals of developing AGI or ASI.
+
+6
+00:00:20,239 --> 00:00:24,079
+Because the master of this beast will no longer need humans to seize the means of production,
+
+7
+00:00:24,420 --> 00:00:28,839
+we'll be able to unlock new technologies, we'll be able to build super weapons to protect itself,
+
+8
+00:00:28,839 --> 00:00:31,320
+and most importantly, make tons and tons of money.
+
+9
+00:00:31,480 --> 00:00:36,780
+Zuck knows how important this is, and just spent 14 billion on a 49% stake of scale AI,
+
+10
+00:00:36,960 --> 00:00:41,979
+which is a data annotation company that basically just curates and labels data used for training AI.
+
+11
+00:00:42,299 --> 00:00:46,100
+And it's 20-something founder, Alexander Wang will take a top position in Meta,
+
+12
+00:00:46,259 --> 00:00:49,280
+making this look like one of the most expensive aquahires of all time.
+
+13
+00:00:49,539 --> 00:00:54,520
+But even that's not enough, and Meta is allegedly offering not just seven figure, not just eight
+
+14
+00:00:54,520 --> 00:00:59,479
+figure, but nine figure pay packages to poach top AI talent from other big tech firms.
+
+15
+00:00:59,659 --> 00:01:03,240
+In today's video, we'll look at Meta's latest move on the chessboard and all the other
+
+16
+00:01:03,240 --> 00:01:08,459
+ridiculous stuff happening in the AI race. It is June 19th, 2025, and you're watching the code
+
+17
+00:01:08,459 --> 00:01:14,799
+report. If I offered you $100 million to leave your job, would you take it? For 99.99% of people,
+
+18
+00:01:15,079 --> 00:01:19,579
+the answer is probably yes. But apparently, according to Sam Altman on his brother's podcast,
+
+19
+00:01:19,579 --> 00:01:24,340
+that's exactly what Zuck has been offering open AI employees to jump ship over to Meta.
+
+20
+00:01:24,540 --> 00:01:28,239
+Unbelievably though, after most of open AI's key employees have already left,
+
+21
+00:01:28,400 --> 00:01:32,500
+none of these people took up Zuck on his offer, because they expect to make even more cash when
+
+22
+00:01:32,500 --> 00:01:36,659
+open AI can finally rug plus with an IPO. That's some high stakes poaching right there,
+
+23
+00:01:36,859 --> 00:01:39,939
+but it's nice to see programmers getting paid as much as guys who play with balls.
+
+24
+00:01:40,280 --> 00:01:43,359
+I do have my doubts though, because I've been reading the open AI files,
+
+25
+00:01:43,519 --> 00:01:46,459
+and I wouldn't be surprised if this was just a strategic life.
+
+26
+00:01:46,459 --> 00:01:50,719
+Like if I were a meta engineer right now, only making a pathetic $1 or $2 million a year,
+
+27
+00:01:50,959 --> 00:01:54,239
+I'd be pretty bitter to hear that he's offering other engineers 100 times more.
+
+28
+00:01:54,420 --> 00:01:57,859
+But as of right now, Zuck hasn't confirmed or denied making these offers.
+
+29
+00:01:58,180 --> 00:02:01,659
+On the other hand, I wouldn't be surprised if it were true, because they just paid 14
+
+30
+00:02:01,659 --> 00:02:07,099
+billion to acquire scale AI, and higher Alexander Wang. In 2012, when they acquired Instagram
+
+31
+00:02:07,099 --> 00:02:11,199
+for 1 billion, it seemed insane. But this deal seems off the charts ridiculous.
+
+32
+00:02:11,199 --> 00:02:16,419
+They only own a 49% stake, but it's already started to backfire, because some of scale AI's top
+
+33
+00:02:16,419 --> 00:02:21,000
+clients like Google are no longer going to use the service. It's a talent worth epic proportions,
+
+34
+00:02:21,099 --> 00:02:25,080
+but much of the technology developed will be used in real wars to blow people up.
+
+35
+00:02:25,300 --> 00:02:30,280
+Open AI just landed a 200 million Department of Defense contract for, quote, proactive cyber
+
+36
+00:02:30,280 --> 00:02:34,979
+defense. Meanwhile, Palantir is apparently creating a mega database on Americans to make sure we're
+
+37
+00:02:34,979 --> 00:02:39,060
+all on our best behavior. And what's really awesome is that when you get drafted to go die in the
+
+38
+00:02:39,060 --> 00:02:43,460
+Middle East, you'll get to use Palantir's AI slot to fight the bad guys. Unless, of course,
+
+39
+00:02:43,620 --> 00:02:48,180
+Sam Altman is correct with his recent blog post about the gentle singularity, which claims that
+
+40
+00:02:48,180 --> 00:02:52,099
+the singularity is already here. It's just not as weird and crazy as we thought it would be.
+
+41
+00:02:52,360 --> 00:02:56,759
+That sounds more like copium for an AI plateau, but there's no doubt that AI can make us more
+
+42
+00:02:56,759 --> 00:03:01,360
+productive programmers with tools like code rabbit, the sponsor of today's video. Their free
+
+43
+00:03:01,360 --> 00:03:07,139
+VS Code extension gives you line-by-line code reviews right in your editor, so you can catch and fix 95%
+
+44
+00:03:07,139 --> 00:03:12,039
+of bugs before submitting a pull request. Its newest update can pass recommended code changes
+
+45
+00:03:12,039 --> 00:03:17,219
+and deep contacts directly to your AI code agent of choice, allowing the agent to make all the fixes
+
+46
+00:03:17,219 --> 00:03:21,879
+for you while you continue breaking, I mean building other parts of your application. Code
+
+47
+00:03:21,879 --> 00:03:26,960
+rabbit is free you use in the IDE and work seamlessly with VS Code, as well as forks like cursor
+
+48
+00:03:26,960 --> 00:03:31,139
+and wind serve. Download the extension using the link below to try it out. This has been the code
+
+49
+00:03:31,139 --> 00:03:33,860
+report thanks for watching and I will see you in the next one.
+

@@ -1,0 +1,220 @@
+1
+00:00:00,000 --> 00:00:04,799
+Last week, the entire Silicon Valley startup ecosystem was brought to its knees by one man,
+
+2
+00:00:05,059 --> 00:00:09,480
+the Sohom Perrek. If you haven't heard this name yet, imagine this. You're a Silicon Valley
+
+3
+00:00:09,480 --> 00:00:13,980
+startup founder, you've got VC money burning a hole in your pocket for some lame AI business
+
+4
+00:00:13,980 --> 00:00:19,339
+idea, but the problem is that you need human-powered engineers, good ones and fast. If you happen
+
+5
+00:00:19,339 --> 00:00:23,280
+to be one of these startup founders, there's a good chance you interviewed Sohom Perrek. Hell,
+
+6
+00:00:23,460 --> 00:00:27,100
+he might even be working at your startup right now because he's mastered the art of crushing
+
+7
+00:00:27,100 --> 00:00:30,699
+the computer science interview. It tons of companies have given this guy job offers,
+
+8
+00:00:31,019 --> 00:00:35,240
+but rather than limit himself to just one, he decided to work at all of them. He's a developer
+
+9
+00:00:35,240 --> 00:00:39,939
+who turned remote work into a multi-threaded concurrent career and broke the internet in the process.
+
+10
+00:00:40,359 --> 00:00:44,420
+In today's video, we'll take a look at the current state of the job market in tech and find out
+
+11
+00:00:44,420 --> 00:00:50,159
+how Sohom Perrek was able to stay 10x over employed. It is July 7th, 2025, and you're watching
+
+12
+00:00:50,159 --> 00:00:54,619
+the code report. The programming job market has been stuck in Feast or Fam and Mode for several
+
+13
+00:00:54,619 --> 00:00:58,759
+years now. If you're looking to land your first job, entry-level positions are harder than ever
+
+14
+00:00:58,759 --> 00:01:03,060
+to come by, and layoffs are still consistently happening at big tech. Although not technically
+
+15
+00:01:03,060 --> 00:01:08,239
+fang, Microsoft just laid off 9000 souls a few days ago, but fang feels like a very outdated
+
+16
+00:01:08,239 --> 00:01:13,819
+acronym in 2025. Going forward, I'll either use Mango or Game Man, just let me know which one you
+
+17
+00:01:13,819 --> 00:01:17,579
+prefer in the comments. The job market's tough to break into right now, but if you have legit
+
+18
+00:01:17,579 --> 00:01:21,739
+skills and machine learning and data science, you might find yourself getting 9 figure offers
+
+19
+00:01:21,739 --> 00:01:25,959
+from Zuckerbucks to poach you from scam ult men. Initially, ult men said that nobody took up
+
+20
+00:01:25,959 --> 00:01:30,700
+Zuckerbork on his offer, but the new superintelligence roster at meta would bake to differ, and OpenAI
+
+21
+00:01:30,700 --> 00:01:35,680
+recruiters are seeding on Twitter. Unfortunately though, angular JS developers like me are not getting
+
+22
+00:01:35,680 --> 00:01:40,239
+any 9 figure offers. The job market might be broken, but if you know how to exploit it, you can
+
+23
+00:01:40,239 --> 00:01:45,159
+still make millions of dollars. The Sohom Perrek is a talented software developer who focused all
+
+24
+00:01:45,159 --> 00:01:49,719
+of his energy on mastering the interview process to impress people who make the hiring decisions.
+
+25
+00:01:49,719 --> 00:01:53,060
+He would entice them with a flattering email about how awesome their company is,
+
+26
+00:01:53,159 --> 00:01:57,480
+it then had the actual leak code skills to crush the interview. Once hired, he would half-ass
+
+27
+00:01:57,480 --> 00:02:02,079
+just enough work to stay employed as long as possible, while simultaneously doing the same thing
+
+28
+00:02:02,079 --> 00:02:06,859
+at four or five other companies. If he was making 200k per job, he could easily clear a million
+
+29
+00:02:06,859 --> 00:02:11,840
+dollars per year doing this, and even if he underperforms it a job, it could still take weeks or even
+
+30
+00:02:11,840 --> 00:02:16,699
+months to fire him. Initially, people speculated that he was doing arbitrage by hiring a team of
+
+31
+00:02:16,699 --> 00:02:21,020
+interns to make all of this possible, but he claims that he was working 120 hours per week,
+
+32
+00:02:21,159 --> 00:02:25,360
+and all of his code was organic and handcrafted by Sohan himself. He's been running this
+
+33
+00:02:25,360 --> 00:02:30,479
+script since 2022 and didn't even rely on AI Slop. He only got caught because the founder of
+
+34
+00:02:30,479 --> 00:02:34,759
+Playground AI dropped this bombshell tweet that the guy was taking advantage of them. It quickly
+
+35
+00:02:34,759 --> 00:02:39,580
+went viral because dozens of other startups realized that Sohom was working for them as well. He of
+
+36
+00:02:39,580 --> 00:02:44,060
+course was quickly fired, but he became something of a folk hero in the tech world, and it's truly a
+
+37
+00:02:44,060 --> 00:02:48,120
+badge of honor to have hired Sohan or at least have interviewed him. He never reached out for an
+
+38
+00:02:48,120 --> 00:02:51,979
+interview, it's likely because your company sucks, but he's not the only guy doing this,
+
+39
+00:02:52,159 --> 00:02:56,419
+there are many Sohan per ex out there. The over employed subreddit has 400,000 members,
+
+40
+00:02:56,699 --> 00:03:00,319
+with all sorts of people bragging about how they hold multiple remote jobs. Ultimately,
+
+41
+00:03:00,479 --> 00:03:05,139
+Sohan received a lot of hate for his actions online, and even said he's not proud of what he did,
+
+42
+00:03:05,419 --> 00:03:09,900
+but the story has a happy ending. He entered into an exclusive relationship with Darwin AI,
+
+43
+00:03:09,900 --> 00:03:14,460
+and has a golden opportunity to start his own technical interview prep company, but you have
+
+44
+00:03:14,460 --> 00:03:20,000
+80,000 hours in your career, 40 hours a week, 50 weeks a year, for 40 years. That's a lot of time to
+
+45
+00:03:20,000 --> 00:03:24,919
+make a positive impact on the world, and 80,000 hours the sponsor of today's video can help you do that.
+
+46
+00:03:25,000 --> 00:03:28,539
+If you're young, you've probably heard advice like follow your passion, do what you love,
+
+47
+00:03:28,539 --> 00:03:33,240
+and take the initiative, but these cliches are not based on evidence or data. Unlike the work of
+
+48
+00:03:33,240 --> 00:03:38,439
+80,000 hours, which is a non-profit that for the last 10 years has been researching the question of
+
+49
+00:03:38,439 --> 00:03:42,919
+how do you find a fulfilling career that does good too. Their website, which is entirely free,
+
+50
+00:03:43,099 --> 00:03:47,699
+has tons of collected research on high impact careers, along with job boards, podcasts,
+
+51
+00:03:48,060 --> 00:03:52,580
+and a lot more. It's an incredible resource for anyone looking to start a high impact career,
+
+52
+00:03:52,780 --> 00:03:57,180
+or make a switch mid-career. Join the newsletter today to get a free copy of their in-depth career
+
+53
+00:03:57,180 --> 00:04:00,860
+guide sent to your inbox. And remember, it's totally free because it's a non-profit,
+
+54
+00:04:01,080 --> 00:04:04,439
+and could be the catalyst that changes your direction in life. This has been the Code Report,
+
+55
+00:04:04,439 --> 00:04:06,919
+thanks for watching, and I will see you in the next one.
+

@@ -1,0 +1,336 @@
+1
+00:00:00,000 --> 00:00:03,439
+Microsoft just gave vibe engineers a huge win out of nowhere.
+
+2
+00:00:03,700 --> 00:00:07,700
+Minutes ago, they open sourced the tool that originally started the AI coding bubble.
+
+3
+00:00:07,980 --> 00:00:09,000
+A GitHub co-pilot.
+
+4
+00:00:09,220 --> 00:00:13,419
+As of today, it's officially free and open-source software under the MIT license,
+
+5
+00:00:13,820 --> 00:00:18,879
+meaning you can fork it, modify it, and even build your own billion-dollar competitor without going to prison.
+
+6
+00:00:19,140 --> 00:00:23,640
+And on top of that, they also open-source the Windows subsystem for Linux or WSL.
+
+7
+00:00:23,960 --> 00:00:26,079
+That's a big deal, because for the last year or two,
+
+8
+00:00:26,079 --> 00:00:30,899
+one of the hottest grifts in Silicon Valley has been the promise of an AI-powered junior engineer,
+
+9
+00:00:31,059 --> 00:00:34,439
+or shovels that can turn any rando on the street into a skilled programmer.
+
+10
+00:00:34,659 --> 00:00:39,859
+Startups have raised millions of dollars by simply forking VS Code and duct-taping some L-alems to it.
+
+11
+00:00:40,060 --> 00:00:45,880
+Like cursor is now valued at $9 billion, while Windsorf was recently acquired by OpenAI for $3 billion.
+
+12
+00:00:46,280 --> 00:00:49,880
+There are some good up-and-coming open-source alternatives, like the Void Editor,
+
+13
+00:00:50,079 --> 00:00:54,740
+but VS Code is on another level, and has been the undisputed King of Code Editors for nearly a decade.
+
+14
+00:00:54,740 --> 00:01:00,060
+In today's video, we'll find out why Microsoft would just give you the code to its extremely valuable co-pilot.
+
+15
+00:01:00,280 --> 00:01:03,520
+It is May 20, 2025, and you're watching the code report.
+
+16
+00:01:03,920 --> 00:01:06,599
+The timing for this announcement is interesting to say the least,
+
+17
+00:01:06,819 --> 00:01:09,739
+because OpenAI and Microsoft used to be rock-solid partners.
+
+18
+00:01:10,079 --> 00:01:12,799
+They used to have an exclusive deal to train their models on Azure,
+
+19
+00:01:13,079 --> 00:01:14,920
+but Microsoft recently ended that deal.
+
+20
+00:01:15,200 --> 00:01:18,019
+Then, just a few days ago, OpenAI announced CodeX,
+
+21
+00:01:18,159 --> 00:01:22,599
+which is a cloud-based coding agent that can generate an ungodly amount of bugs and parallel.
+
+22
+00:01:22,599 --> 00:01:25,659
+But it's a product very similar to GitHub Agent Mode,
+
+23
+00:01:25,799 --> 00:01:27,379
+which was just announced a few months ago.
+
+24
+00:01:27,659 --> 00:01:31,739
+Then yesterday at Microsoft Build, they announced how it's being integrated directly into GitHub,
+
+25
+00:01:32,019 --> 00:01:35,519
+while also adding support for the model context protocol to all their products,
+
+26
+00:01:35,519 --> 00:01:36,859
+including Windows 11,
+
+27
+00:01:37,200 --> 00:01:40,920
+paving the way to give artificial intelligence full control over your operating system.
+
+28
+00:01:41,099 --> 00:01:44,060
+That's a huge opportunity for developers and hackers alike,
+
+29
+00:01:44,219 --> 00:01:47,099
+and it's essential for any company that wants to win the AI race
+
+30
+00:01:47,099 --> 00:01:48,980
+to win the hearts and minds of developers.
+
+31
+00:01:48,980 --> 00:01:51,159
+Because according to Anthropics Recent Study,
+
+32
+00:01:51,420 --> 00:01:55,659
+the vast majority of people who use and pay for LLMs unironically are programmers.
+
+33
+00:01:55,939 --> 00:01:58,319
+OpenAI has been lagging behind with programmers recently,
+
+34
+00:01:58,540 --> 00:02:01,900
+but to change that, they recently locked in a massive deal by acquiring
+
+35
+00:02:01,900 --> 00:02:03,280
+Windsor for $3 billion,
+
+36
+00:02:03,959 --> 00:02:07,620
+which again is a VS Code fork modified to be an AI Sloppymatic.
+
+37
+00:02:07,900 --> 00:02:10,599
+The timing is really funny because had they just waited a few days,
+
+38
+00:02:10,919 --> 00:02:14,659
+they could have saved those $3 billion and just used the now open-source co-pilot.
+
+39
+00:02:14,840 --> 00:02:18,419
+But I don't think Microsoft open-source co-pilot just to Pwn Sam Altman,
+
+40
+00:02:18,419 --> 00:02:22,280
+virtually every open-source play made by Microsoft has worked out really well.
+
+41
+00:02:22,379 --> 00:02:24,860
+VS Code and TypeScript dominate the Web Dev ecosystem.
+
+42
+00:02:25,460 --> 00:02:29,460
+The Windows subsystem for Linux made Windows a viable platform for all developers,
+
+43
+00:02:29,939 --> 00:02:32,960
+and they even open-source their old MS-DOS code last year.
+
+44
+00:02:33,159 --> 00:02:38,840
+But this is a bit unusual because co-pilot is a paid product costing as much as $390 per year,
+
+45
+00:02:39,020 --> 00:02:39,699
+and you might be wondering,
+
+46
+00:02:40,080 --> 00:02:41,639
+does that mean it'll be totally free now?
+
+47
+00:02:41,960 --> 00:02:43,860
+And the answer is no, no it does not.
+
+48
+00:02:44,039 --> 00:02:45,080
+When you pay for co-pilot,
+
+49
+00:02:45,080 --> 00:02:48,659
+you're mostly paying for the cloud computing cost to generate your actual code,
+
+50
+00:02:48,840 --> 00:02:50,840
+not the underlying software of co-pilot itself.
+
+51
+00:02:51,180 --> 00:02:52,719
+In theory, by open-sourcing it,
+
+52
+00:02:52,879 --> 00:02:55,520
+co-pilot should improve and ship features faster,
+
+53
+00:02:55,780 --> 00:02:57,639
+without the need to pay Microsoft employees.
+
+54
+00:02:58,080 --> 00:03:00,740
+You may have heard that Microsoft just laid off 6,000 people,
+
+55
+00:03:01,000 --> 00:03:02,439
+including many veteran engineers,
+
+56
+00:03:02,780 --> 00:03:04,360
+so they could really use the extra help.
+
+57
+00:03:04,520 --> 00:03:05,939
+But it's a win-win for everybody,
+
+58
+00:03:06,099 --> 00:03:08,379
+because you could use their code to monetize your own thing,
+
+59
+00:03:08,599 --> 00:03:10,460
+or extend it in ways that help other developers,
+
+60
+00:03:10,699 --> 00:03:13,939
+and that's just not possible on close-source platforms like Cursor and Windsor.
+
+61
+00:03:13,939 --> 00:03:18,120
+Not to mention, you get better transparency and quicker fixes for security vulnerabilities.
+
+62
+00:03:18,719 --> 00:03:20,280
+I'd say this is a big win for Microsoft,
+
+63
+00:03:20,580 --> 00:03:22,879
+and there'll be big rewards for those who can actually code,
+
+64
+00:03:23,039 --> 00:03:25,340
+while leveraging AI to become 10x more productive.
+
+65
+00:03:25,560 --> 00:03:27,840
+But you have 80,000 hours in your career,
+
+66
+00:03:27,979 --> 00:03:30,620
+40 hours a week, 50 weeks a year, for 40 years.
+
+67
+00:03:30,860 --> 00:03:33,240
+That's a lot of time to make a positive impact on the world.
+
+68
+00:03:33,439 --> 00:03:36,599
+And 80,000 hours, the sponsor of today's video, can help you do that.
+
+69
+00:03:36,659 --> 00:03:39,280
+If you're young, you've probably heard advice like follow your passion,
+
+70
+00:03:39,580 --> 00:03:41,340
+do what you love, and take the initiative.
+
+71
+00:03:41,340 --> 00:03:43,939
+But these cliches are not based on evidence or data.
+
+72
+00:03:44,139 --> 00:03:47,080
+Unlike the work of 80,000 hours, which is a non-profit,
+
+73
+00:03:47,300 --> 00:03:49,860
+that for the last 10 years has been researching the question
+
+74
+00:03:49,860 --> 00:03:52,819
+of how do you find a fulfilling career that does good too.
+
+75
+00:03:52,960 --> 00:03:54,620
+Their website, which is entirely free,
+
+76
+00:03:54,780 --> 00:03:57,539
+has tons of collected research on high-impact careers,
+
+77
+00:03:57,819 --> 00:04:00,340
+along with job boards, podcasts, and a lot more.
+
+78
+00:04:00,560 --> 00:04:04,219
+It's an incredible resource for anyone looking to start a high-impact career,
+
+79
+00:04:04,479 --> 00:04:05,699
+or make a switch mid-career.
+
+80
+00:04:05,780 --> 00:04:10,039
+Join the newsletter today to get a free copy of their in-depth career guide sent to your inbox.
+
+81
+00:04:10,039 --> 00:04:12,539
+And remember, it's totally free because it's a non-profit,
+
+82
+00:04:12,759 --> 00:04:15,120
+and could be the catalyst that changes your direction in life.
+
+83
+00:04:15,259 --> 00:04:16,120
+This has been the Code Report.
+
+84
+00:04:16,379 --> 00:04:18,579
+Thanks for watching, and I will see you in the next one.
+

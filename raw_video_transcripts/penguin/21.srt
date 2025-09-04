@@ -1,0 +1,488 @@
+1
+00:00:00,000 --> 00:00:06,200
+I have been paying very close attention to the Twitch bot apocalypse. I kept my finger on the pulse of it.
+
+2
+00:00:06,320 --> 00:00:14,039
+I find it to be a really interesting topic here. For those that don't know, a few days ago, Twitch made good on their promise where they swore,
+
+3
+00:00:14,259 --> 00:00:19,000
+they would be making bot detection and eradication a priority.
+
+4
+00:00:19,480 --> 00:00:25,280
+They finally called attention to an issue that has plagued Twitch since the beginning.
+
+5
+00:00:25,280 --> 00:00:33,640
+Since the genesis of Twitch in the primordial soup of streaming, there has been bots that have infected the platform.
+
+6
+00:00:33,920 --> 00:00:40,259
+For the longest time, Twitch had gone really hands off. They said, you know what, if we don't put our hands on the stove, we won't know if it's hot.
+
+7
+00:00:40,859 --> 00:00:45,859
+But recently, they said that they were going to actually be directly attacking this bot issue.
+
+8
+00:00:45,859 --> 00:00:51,100
+And a few days ago, they rolled out their first targeted strike here on bots.
+
+9
+00:00:51,560 --> 00:01:02,479
+And boy, howdy, it was a doozy. Apparently, the overall viewership on Twitch went down as much as 24% compared to last week with many big streamers,
+
+10
+00:01:02,579 --> 00:01:09,000
+suddenly losing thousands of viewers, not just big streamers, streamers of all shapes and sizes lost tons and tons of viewers like across the board.
+
+11
+00:01:09,000 --> 00:01:14,180
+It was a pretty big purge of invalid traffic bot activity.
+
+12
+00:01:14,480 --> 00:01:19,480
+And as I said a couple days ago, I was pretty surprised with how hard they hit the ground running here.
+
+13
+00:01:19,920 --> 00:01:24,120
+I thought it would just be like lightly poking the bear like, oh, we got rid of like 100 bots.
+
+14
+00:01:24,659 --> 00:01:29,659
+Big W, Twitch is saved. But no, they kind of like, they dropped a bomb here.
+
+15
+00:01:29,760 --> 00:01:35,480
+It was a pretty big deal, so big in fact, that a lot of streamers, many suspected of being a view botter,
+
+16
+00:01:35,480 --> 00:01:40,180
+had just decided not to stream, like the last week or so, inexplicably.
+
+17
+00:01:40,579 --> 00:01:45,780
+Just randomly deciding not to stream during the bot purge, which of course has everyone raising an eyebrow.
+
+18
+00:01:46,400 --> 00:01:52,420
+And of course, all of this has led to a lot of finger pointing, a lot of shit stirring, a lot of spitting, a lot of farting and coming.
+
+19
+00:01:52,900 --> 00:02:01,340
+It's been kind of pandemonium in the streaming space as people are noticing, view counts have been dropped from a lot of streamers.
+
+20
+00:02:01,340 --> 00:02:07,000
+And in some cases drastically, so the natural conclusion people are drawing is they were view botting.
+
+21
+00:02:07,799 --> 00:02:17,360
+And as I predicted, and as everyone predicted, nobody wants to own up to being privy to their channel being view botted,
+
+22
+00:02:17,400 --> 00:02:20,580
+because that's against the rules they would get banned, no one's ever going to admit to it.
+
+23
+00:02:20,900 --> 00:02:27,879
+So it's been a lot of cope and a lot of excuses, like, oh, it must have just been this stranger over here that's been doing this and I had no fucking clue.
+
+24
+00:02:27,879 --> 00:02:28,939
+I'm glad that it's getting solved.
+
+25
+00:02:29,560 --> 00:02:32,099
+Everyone is talking about this as a positive thing.
+
+26
+00:02:32,180 --> 00:02:43,479
+Meanwhile, in the background, there are people that no doubt are shaking their fist and anger in demanding that their botting service get it under control and fix it because they need those viewer numbers to go back to where they were.
+
+27
+00:02:43,800 --> 00:02:48,539
+Because obviously, if it doesn't, people are going to be aware there was some fraudulent activity there.
+
+28
+00:02:48,680 --> 00:02:53,639
+And the only question remains, did the streamer know, like, were they guilty of paying for the service themselves?
+
+29
+00:02:53,639 --> 00:03:03,300
+Or was it like an org they were affiliated with because according to a lot of the data, which all of which is public, by the way, you can see all of the viewer numbers post and pre purge.
+
+30
+00:03:03,599 --> 00:03:04,659
+All of this is public.
+
+31
+00:03:04,939 --> 00:03:10,080
+So you can see a lot of streamers that are affiliated with an org, like OTK, the big one everyone's talked about.
+
+32
+00:03:10,360 --> 00:03:13,319
+But not just OTK, there were other orgs coming under fire as well.
+
+33
+00:03:13,620 --> 00:03:23,039
+Namely, FaZe was another one that people had a lot of question marks over their head with because a lot of the streamers affiliated with FaZe also took huge drastic drops in their viewership during this purge.
+
+34
+00:03:23,039 --> 00:03:34,400
+So the speculation is that these orgs are boosting the numbers of some of the streamers under their umbrella because by having more successful streamers under their brand, it's good for the brand.
+
+35
+00:03:34,759 --> 00:03:42,979
+Obviously, the motivation is to make more money because you can make significantly more de bloons if the streamers that are under your blanket are more popular.
+
+36
+00:03:43,360 --> 00:03:52,159
+So if you boost your streamers by thousands upon thousands of viewers that they don't legitimately have, you can still bring those numbers to brands that would be none the wiser in the partnership.
+
+37
+00:03:52,159 --> 00:04:01,800
+And according to some other streamers, there's been actually quite a bit of talk from streamers about orgs even like softly admitting to doing this in certain cases.
+
+38
+00:04:01,919 --> 00:04:08,699
+I don't know like all the particulars around that, but there has been like a lot of discussion that orgs do actually do this.
+
+39
+00:04:08,800 --> 00:04:15,659
+Like it's not just a full blown conspiracy theory, but then the question becomes, well, do the streamers under these orgs know about that?
+
+40
+00:04:15,659 --> 00:04:22,019
+Like there's just a lot of questions now after all of this bot detection and all this bot purging.
+
+41
+00:04:22,220 --> 00:04:25,779
+It's been a flood of questions like Yahoo Answers just got revived.
+
+42
+00:04:26,420 --> 00:04:40,379
+Did the streamers view bot themselves? Was it a member of their community view botting the streamer? Did the streamer, are they a victim of like a stranger, a malicious bad actor trying to artificially boost their numbers to potentially ruin their reputation?
+
+43
+00:04:40,839 --> 00:04:46,480
+Is there a super fan of the streamer that's trying to boost their favorite streamer to make them more popular? Because they just love them so much.
+
+44
+00:04:46,759 --> 00:04:52,160
+Does the streamer know that the org they're affiliated with might be boosting their numbers? Just so many questions.
+
+45
+00:04:52,160 --> 00:04:55,660
+And another big discussion that's come from all this is about sponsors.
+
+46
+00:04:56,300 --> 00:05:04,220
+Allegedly, some sponsors have been botting sponsored streams in order to make it seem more popular to the average viewer.
+
+47
+00:05:04,220 --> 00:05:08,199
+So they'll artificially boost those numbers so it seems like there's more hype around the product.
+
+48
+00:05:08,600 --> 00:05:18,600
+And they've also been accused of botting even beyond sponsored streams because by being partnered with that streamer, it's better for their brand if that streamer is perceived as more popular.
+
+49
+00:05:18,980 --> 00:05:26,819
+So they'll boost them even beyond the sponsored stream just so that way they can use it as marketing material like, hey look, we're partnered with this big guy.
+
+50
+00:05:26,819 --> 00:05:31,680
+And meanwhile, a lot of the viewership is botted by the sponsor allegedly.
+
+51
+00:05:32,079 --> 00:05:40,800
+But I also want to mention that in only two days here, it seems that there are some botting services that have already found ways of circumventing these bands.
+
+52
+00:05:41,399 --> 00:05:55,160
+There are some streamers that have miraculously bounced back after a three day plummet to not only where they were, but in some cases even higher, despite nothing changing in their content and doing nothing different.
+
+53
+00:05:55,160 --> 00:06:00,699
+So it does look like in certain cases, some bots have found a way to evade this.
+
+54
+00:06:01,120 --> 00:06:08,379
+So I'm hoping this isn't twitches only action here against bots because as I mentioned, it's going to be an ongoing tug of war.
+
+55
+00:06:08,680 --> 00:06:14,600
+And it is good for the entire platform to do your best to stop bot activity.
+
+56
+00:06:15,040 --> 00:06:23,579
+Fake phony baloney numbers are bad for all of the streamers on the platform except for, of course, the ones that are paying to win in the streaming space.
+
+57
+00:06:23,579 --> 00:06:39,540
+Which is another thing. There is a very real possibility and something that has been talked about by some of the biggest streamers that a strategy that used to be used and is probably still employed to a certain degree is some streamers would bot their streams for a while to try and grow an organic viewer base.
+
+58
+00:06:39,879 --> 00:06:46,519
+And then they would completely stop paying for the botting service and just let the organic numbers start to take over as more people assimilate into the community.
+
+59
+00:06:46,519 --> 00:07:01,079
+So of course, this is never going to detect that strategy, but even still twitch needs to do everything it can to stop bots because it is very bad for everyone on the platform to just let this rampant issue continue and spiral out of control.
+
+60
+00:07:02,280 --> 00:07:13,220
+Now, I think I need to explain why I have this perspective and so many people have this perspective because I've seen a lot of people downplaying this as like not a big deal like this is a fucking nothing burger who cares about view counts.
+
+61
+00:07:13,220 --> 00:07:20,899
+If you can pay for it, you should do it. It gives you the advantage in the space. You got to stand out in the market. So if you can do anything to get an edge, you got to fucking do it.
+
+62
+00:07:21,120 --> 00:07:33,699
+And yeah, you're right, it's a saturated market. So obviously buying view bots is going to immediately help you stand out by floating to the top of a category. So that way some curious George's will see it the front there and they'll click because you've got the most viewers.
+
+63
+00:07:33,699 --> 00:07:51,620
+So obviously there's a lot of hub up there and they want to see what all the fuss is about so check out your stream because you have artificially inflated the numbers and then you have now occupied that viewer, which takes it from another streamer that is legitimately streaming to an audience and a real community of people there to watch them instead of just an army of clankers.
+
+64
+00:07:51,959 --> 00:07:57,579
+In fact, the argument kind of mirrors something from many moons ago when twitch was still pretty new.
+
+65
+00:07:57,579 --> 00:08:20,939
+I'm going to take you back to the past to talk about some titties and ass. There was a huge trend on twitch for a while with something called booby streamers, if anyone remembers that, where there was a trend on twitch, where streamers would try and where the most revealing clothing that twitch would possibly allow in the most sexual of positions and constantly putting cleavage as like the main hook to draw viewers in.
+
+66
+00:08:20,939 --> 00:08:30,819
+And this drew a lot of outrage because people believed that by doing that they were stealing viewers from their streams because they weren't showing cleavage in everything.
+
+67
+00:08:31,060 --> 00:08:38,360
+It was a huge debate that raged on for years actually and people were always split on whether or not that was the case.
+
+68
+00:08:38,779 --> 00:08:46,720
+Was this streamer with cleavage stealing a viewer from this guy over here who was building a brazen bull in Minecraft? Well, the jury was always out.
+
+69
+00:08:46,720 --> 00:09:02,840
+But in this case, there is clear data, clear cut, irrefutable evidence that view body in your streams and fucking leapfrogging your way ahead of everyone that is legitimately streaming with less viewers than you does actually steal the viewers from them.
+
+70
+00:09:03,000 --> 00:09:13,960
+You are directly competing in the exact same content, but you have now floated more visibly to the top through artificially inflating your numbers, fundamentally paying to win and cheating the system.
+
+71
+00:09:13,960 --> 00:09:25,559
+That 100% does take viewers away from the actual streamers on twitch. Across the board, it's not a debate and it's not like a competitive advantage you are cheating.
+
+72
+00:09:25,919 --> 00:09:31,519
+You are breaking the rules of the website too, by the way, twitch just doesn't choose to enforce them very often.
+
+73
+00:09:31,779 --> 00:09:39,080
+They have just let this go unchecked for an extremely long period of time, but it's not allowed. You're not supposed to be able to do that.
+
+74
+00:09:39,080 --> 00:09:50,679
+So this, again, is not a debate. So the problem is that shit sucks. That is bad not only for all the streamers that are doing it legitimately, but it's also bad for the platform.
+
+75
+00:09:51,039 --> 00:10:08,080
+I'm actually kind of surprised twitch doesn't face more hot water for their handling of bots for this long, because while twitch on their back end can identify fraudulent traffic and adjust your ad revenue for it, that is something they've talked about before how like if you view bot a stream up to 2 million viewers instantaneously,
+
+76
+00:10:08,699 --> 00:10:15,080
+and then just start farming ads. Twitch will go and analyze that traffic to see if it's real and they will adjust your earnings on it.
+
+77
+00:10:15,200 --> 00:10:23,460
+I've seen them talk about that. While twitch can do that on their back end and not lose their ass on that, you know who can't brands that work with streamers.
+
+78
+00:10:23,679 --> 00:10:30,620
+The way a brand partnership works when it comes to streamers is they base your pay on your metrics.
+
+79
+00:10:30,620 --> 00:10:39,059
+And the metrics that you provide, well that's not going to account for bots. They can only go off the information that is accessible.
+
+80
+00:10:39,720 --> 00:10:47,100
+And they don't have that back end ability that twitch has to go in there and see, well who's a real viewer versus a fake one? Like how many bots are here?
+
+81
+00:10:47,460 --> 00:10:53,559
+They only have your metrics. So that's your average viewers, which could easily be hyper inflated because of bots.
+
+82
+00:10:53,559 --> 00:11:01,899
+So what streamers can easily do and definitely have done is they boost all their numbers to really high levels that they really are not achieving organically.
+
+83
+00:11:01,899 --> 00:11:13,919
+It's not real viewers. It is all fraudulent invalid traffic from botting services. They will inflate their viewer numbers. Then brands will approach them or they will approach brands about doing a partnership or a sponsored stream.
+
+84
+00:11:14,120 --> 00:11:22,039
+And they'll provide those viewer numbers, which will have the brand then give them higher pay than what they should be receiving.
+
+85
+00:11:22,039 --> 00:11:27,659
+And the brand will pay this money under the impression that it's being served to X amount of viewers.
+
+86
+00:11:27,940 --> 00:11:35,639
+And those viewers, they're assuming are real legitimate human beings with a pulse. But in reality, a lot of times it's being served to bots.
+
+87
+00:11:35,940 --> 00:11:42,379
+Aren't even there, aren't consuming it at all. So they're paying a lot of money to be put in front of bots without their knowledge.
+
+88
+00:11:42,379 --> 00:11:55,480
+In some cases, of course, that's not every case. As I mentioned earlier, there are some brands that have been accused of botting the sponsored stream itself in order to float more visibly to like Twitch and whatever category they're in.
+
+89
+00:11:55,740 --> 00:12:04,600
+So there are definitely some brands that are more than fine with using botting services to make it seem like it's more hype and there's more interest in this sponsored stream.
+
+90
+00:12:04,600 --> 00:12:10,679
+Like, wow, there's 20,000 viewers here to watch, you know, the poop that took a pee, 2.0 just dropped.
+
+91
+00:12:10,879 --> 00:12:19,080
+Look at all these people in here that are watching this sponsored stream. Meanwhile, it's the agency itself that is paying to boost those numbers.
+
+92
+00:12:19,500 --> 00:12:28,539
+So both of these things happen where a brand will be non-the wiser that what they are paying for is not getting served to real human beings that they expected to.
+
+93
+00:12:28,539 --> 00:12:36,779
+So it's getting served to bots and there are some brands that pay to actually just use the bots to try and generate this artificial hype around something.
+
+94
+00:12:37,200 --> 00:12:45,980
+The way that bots function in the Twitch ecosystem is fucking crazy. I really am kind of surprised Twitch hasn't faced more problems from these companies for it.
+
+95
+00:12:46,039 --> 00:12:56,039
+Like, companies that might feel defrauded. Like, they paid hand over fists to these streamers based on these viewer numbers only to learn, well, they're all being botted because Twitch does not care about botting.
+
+96
+00:12:56,039 --> 00:13:00,340
+And they kind of gave the soft green light that they're not going to crack down on it and don't really give a fuck.
+
+97
+00:13:00,759 --> 00:13:09,200
+I imagine some brands would be really pissed to learn that. And I'm surprised they haven't like called out Twitch or tried to handle this litigiously or something about it.
+
+98
+00:13:09,639 --> 00:13:15,240
+I don't know, I just found that to be a little interesting because it is very clear botting is a huge issue on Twitch.
+
+99
+00:13:15,460 --> 00:13:22,840
+When they finally took their first real step in fighting against this menace, their overall platform viewership dropped 24%.
+
+100
+00:13:22,840 --> 00:13:27,940
+And that's just the first snowball in an avalanche of bots I imagine.
+
+101
+00:13:28,220 --> 00:13:32,940
+That is the first wave. Can you imagine if Twitch actually deleted every bot from the platform?
+
+102
+00:13:33,379 --> 00:13:36,360
+I wonder how high that percentage drop would have gone, you know what I mean?
+
+103
+00:13:36,779 --> 00:13:51,559
+Now, in reality, I don't think that's ever going to happen. It's a very tall order to fight and delete every bot when these services are constantly going to be doing everything and spending tons and tons of money of their own to evade bot detection.
+
+104
+00:13:51,559 --> 00:14:00,759
+Because they have so many clients that use them. There will probably always be bots on Twitch, not only on Twitch, it's obviously on YouTube and every other streaming platform as well. I understand that.
+
+105
+00:14:01,139 --> 00:14:05,240
+And also, I feel as though Twitch might be apprehensive about this anyway.
+
+106
+00:14:05,460 --> 00:14:14,559
+Like if Twitch had a magic button that they could press it and it would guarantee every bot and all invalid traffic would be banned on Twitch from this point forward and could never return.
+
+107
+00:14:14,759 --> 00:14:23,679
+It basically be like in K-pop demon hunters when they fully seal away all the demons they can't return. If Twitch could do that right now, I think they would be very apprehensive about it.
+
+108
+00:14:23,879 --> 00:14:33,460
+Because we just saw them take one step in fighting bots and they lost 24% of their viewer base over the last few days that it's been there.
+
+109
+00:14:33,460 --> 00:14:47,740
+Like that's a huge drop and if they did it even harder, that number would only climb and I imagine they would be worried about all of their brand partners starting to jump ship like oh no Twitch is dying. Look at this graph.
+
+110
+00:14:48,080 --> 00:14:58,559
+You see how there's no more views. It's all dried up. Time to pull our ad spin from Twitch. I think they would be worried about the future of Twitch if they did that because their viewer count numbers would be so, so much lower.
+
+111
+00:14:58,559 --> 00:15:05,720
+Significantly lower that they'd probably be getting hit financially pretty hard from all of these sponsors that are paying money to be put there.
+
+112
+00:15:06,059 --> 00:15:14,659
+And brands don't really care about like the nuance of what the numbers say. They only care about what the numbers indicate.
+
+113
+00:15:15,019 --> 00:15:21,120
+So most of the brands I imagine would see this and in fact some of them are probably already worried with the 24% drop.
+
+114
+00:15:21,120 --> 00:15:26,220
+But if it got even higher some brands would probably see this and they wouldn't take into account like it's all bot activity.
+
+115
+00:15:26,279 --> 00:15:30,460
+They would see this and be like nope this is dangerous. This is not worth the ad spin where we're pulling out.
+
+116
+00:15:30,639 --> 00:15:43,139
+And even if they did bother to take a little bit of time looking into it, they might feel slighted by Twitch for letting this bot problem persist for so long and they were spending so much money for what ultimately amounted to a lot of invalid traffic.
+
+117
+00:15:43,419 --> 00:15:48,700
+So I think Twitch would be really skeptical about getting rid of every bot even if they could.
+
+118
+00:15:48,700 --> 00:15:55,360
+Which is why I was so surprised that they went this hard out of the gate against the bots and actually did make a dent in it.
+
+119
+00:15:55,940 --> 00:16:02,100
+And I hope they continue to do this. I hope that they didn't like you know pump the brakes like oh that was a lot.
+
+120
+00:16:02,179 --> 00:16:08,960
+We took a big viewership hit there from all this bot stuff. Let's maybe you know pull our punches a little bit here. I hope they don't go down that path.
+
+121
+00:16:09,200 --> 00:16:16,860
+Like I do hope they continue to make this a priority and do legitimately try it and get as many bots off of Twitch as they possibly can.
+
+122
+00:16:16,860 --> 00:16:20,899
+Anyway, that's enough blabbering about it for me today. That's about it. See ya.
+

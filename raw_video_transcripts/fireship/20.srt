@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:04,019
+Yesterday, the world came to a standstill after the greatest political minds in the world,
+
+2
+00:00:04,179 --> 00:00:07,519
+also known as forechan users, were unable to access their accounts.
+
+3
+00:00:07,759 --> 00:00:09,720
+But it wasn't just a simple website outage.
+
+4
+00:00:09,859 --> 00:00:13,380
+forechan was hacked by a rival gang of internet sheds from a website called
+
+5
+00:00:13,380 --> 00:00:15,880
+soyjack.party, or just shardy for short.
+
+6
+00:00:16,079 --> 00:00:20,820
+They vandalized the website by resurrecting a defunct forum and posting you got hacked in it.
+
+7
+00:00:20,899 --> 00:00:22,300
+But that's hardly the bad part.
+
+8
+00:00:22,480 --> 00:00:25,760
+They also leaked the private emails and IP logs of janitors,
+
+9
+00:00:26,000 --> 00:00:27,879
+which are like low-level admins on the website,
+
+10
+00:00:27,879 --> 00:00:29,379
+but it gets even worse than that.
+
+11
+00:00:29,539 --> 00:00:32,219
+The forechan website is apparently written in PHP,
+
+12
+00:00:32,539 --> 00:00:35,899
+and I know this because the hackers hacked it like hackers hacked in hacking movies.
+
+13
+00:00:36,100 --> 00:00:39,619
+They didn't gain access with stolen passwords, phishing, or social engineering,
+
+14
+00:00:39,619 --> 00:00:43,979
+but instead they exploited an actual security vulnerability in the websites back end code.
+
+15
+00:00:44,240 --> 00:00:46,820
+In today's video, we'll perform a code review of forechan,
+
+16
+00:00:47,159 --> 00:00:49,439
+and find out how it got wrecked by a bunch of soyjacks.
+
+17
+00:00:49,619 --> 00:00:52,920
+It is April 16, 2025, and you're watching the code report.
+
+18
+00:00:53,179 --> 00:00:56,899
+One of the reasons technology doesn't get hacked more often is thanks to a thing called
+
+19
+00:00:56,899 --> 00:00:59,280
+the Common Vulnerabilities and Exposures database.
+
+20
+00:00:59,579 --> 00:01:04,579
+Whenever I make a video about a hacking incident, I usually reference a CVE dictionary entry,
+
+21
+00:01:04,799 --> 00:01:08,500
+which keeps track of details about software vulnerabilities and their severity.
+
+22
+00:01:08,719 --> 00:01:10,840
+This database though relies on government funding.
+
+23
+00:01:11,099 --> 00:01:13,579
+It's operated by a non-profit, but as of today,
+
+24
+00:01:13,840 --> 00:01:18,819
+its US government funding expires, and the Department of Homeland Security has decided to defund it.
+
+25
+00:01:18,879 --> 00:01:22,359
+And that means you'll need to go somewhere else to figure out how vulnerability or software is.
+
+26
+00:01:22,459 --> 00:01:23,540
+Actually, this just end.
+
+27
+00:01:23,680 --> 00:01:25,280
+As soon as I finish recording that line,
+
+28
+00:01:25,280 --> 00:01:28,980
+it looks like the government changed its mind and is now going to renew the contract.
+
+29
+00:01:29,219 --> 00:01:33,299
+That's good news, but I still have bad news if you're an a non-edgelord on forechan.
+
+30
+00:01:33,519 --> 00:01:36,420
+A soyjack party is actually the remnants of a board called QA,
+
+31
+00:01:36,620 --> 00:01:38,500
+which was originally just for questions and answers,
+
+32
+00:01:38,500 --> 00:01:41,700
+but it devolved or evolved into a soyjack factory.
+
+33
+00:01:41,840 --> 00:01:44,680
+Things got chaotic there with cross-bored beefs, janitor-hate,
+
+34
+00:01:44,840 --> 00:01:46,519
+and obsessive posting about moderation,
+
+35
+00:01:46,840 --> 00:01:48,560
+and so QA was removed in 2021.
+
+36
+00:01:48,879 --> 00:01:51,299
+And that led to the bitter creation of soyjack party.
+
+37
+00:01:51,299 --> 00:01:55,700
+Well, after yesterday's hack, all of these exiled basejacks made a glorious return to their
+
+38
+00:01:55,700 --> 00:01:56,680
+homeland on QA.
+
+39
+00:01:56,879 --> 00:02:00,480
+In addition, they access staff emails, a private board for staff members,
+
+40
+00:02:00,799 --> 00:02:03,019
+and the interesting discovery of moderation tools,
+
+41
+00:02:03,219 --> 00:02:07,540
+which confirms that when you're banned, they give you one reason and show staff a different reason,
+
+42
+00:02:07,739 --> 00:02:09,879
+which is a common practice in big social media,
+
+43
+00:02:10,180 --> 00:02:13,819
+like when YouTube just tells me I violated the community guidelines without giving me a reason.
+
+44
+00:02:13,979 --> 00:02:17,460
+But the reality is that YouTube does have a real reason for banning every video
+
+45
+00:02:17,460 --> 00:02:19,159
+that can only be seen by staff members.
+
+46
+00:02:19,159 --> 00:02:22,639
+But now the question is how did these soyjacks get access to Forchant?
+
+47
+00:02:22,759 --> 00:02:26,159
+Surprisingly, it wasn't your typical social engineering password, though.
+
+48
+00:02:26,319 --> 00:02:28,819
+It was mostly the fault of a gregiously out-of-date software.
+
+49
+00:02:29,099 --> 00:02:33,280
+So Forchant has written in PHP, and it allows uploading PDFs to certain boards,
+
+50
+00:02:33,539 --> 00:02:37,520
+but they neglected to verify that the uploaded file is actually a PDF file.
+
+51
+00:02:37,639 --> 00:02:41,539
+As such, PostScript files containing PostScript drawing commands can be uploaded.
+
+52
+00:02:41,780 --> 00:02:45,180
+This PostScript file will be passed into GhostScript to generate a thumbnail image,
+
+53
+00:02:45,400 --> 00:02:48,479
+but the version of GhostScript that Forchant uses is from 2012.
+
+54
+00:02:48,479 --> 00:02:53,340
+In fact, we could search the CVE website I mentioned earlier to find vulnerabilities affecting GhostScript.
+
+55
+00:02:53,520 --> 00:02:56,240
+From there, the hacker was able to elevate himself to a global user,
+
+56
+00:02:56,439 --> 00:03:00,979
+it does completing a full penetration, and even though he or she had access to all user data,
+
+57
+00:03:01,259 --> 00:03:05,080
+they chose not to expose it like a docks jack, with the exception of Forchant janitors.
+
+58
+00:03:05,340 --> 00:03:08,159
+Now, unfortunately, I'm not going to show the hack source code in this video
+
+59
+00:03:08,159 --> 00:03:10,139
+because I don't want to violate the community guidelines,
+
+60
+00:03:10,479 --> 00:03:14,120
+but one interesting thing they found is that Forchant aggressively attempts to
+
+61
+00:03:14,120 --> 00:03:17,939
+fingerprint your browser, and that's likely to control spam and prevent band evasion.
+
+62
+00:03:18,240 --> 00:03:22,060
+In addition, they're using a version of PHP that hasn't been updated since 2016,
+
+63
+00:03:22,360 --> 00:03:26,259
+and the hacker posted a screenshot of it running on freeBSD version 10.1,
+
+64
+00:03:26,479 --> 00:03:30,219
+which came out in 2014 and stopped getting patches nearly a decade ago.
+
+65
+00:03:30,379 --> 00:03:34,620
+And that's running a MySQL database with the NODB engine that's currently hosting over 10
+
+66
+00:03:34,620 --> 00:03:38,960
+million band users. If you have that much data though and want things to be magically faster,
+
+67
+00:03:39,240 --> 00:03:43,020
+a much better database option is TimeScale, the sponsor of today's video.
+
+68
+00:03:43,020 --> 00:03:47,259
+It's an open source high performance database, and because it's built on top of Postgres,
+
+69
+00:03:47,539 --> 00:03:52,139
+you can handle transactional data in addition to demanding time series, real-time analytics,
+
+70
+00:03:52,500 --> 00:03:56,639
+and vector data all on an ecosystem you already know. It's extremely fast and efficient,
+
+71
+00:03:56,900 --> 00:04:01,120
+and proofs Postgres can handle high ingest and low latency queries for customer facing
+
+72
+00:04:01,120 --> 00:04:05,719
+applications at scale. And that's thanks to automatic partitioning, a hybrid row columnar
+
+73
+00:04:05,719 --> 00:04:10,819
+engine, and optimized query execution. The end result is a real-time analytics database that's
+
+74
+00:04:10,819 --> 00:04:15,020
+faster than anything else on the planet. Check out the open source benchmarks to see for yourself,
+
+75
+00:04:15,199 --> 00:04:19,560
+or better yet, just use TimeScale because it's open source and self-hostable, or try it for
+
+76
+00:04:19,560 --> 00:04:23,620
+freeing the cloud right now with the link below. This has been the code report, thanks for watching,
+
+77
+00:04:23,879 --> 00:04:25,139
+and I will see you in the next one.
+
